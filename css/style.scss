@@ -1,0 +1,63 @@
+html{
+
+}
+body{
+	font-family: Lato;
+	margin: 0px;
+}
+a{
+	text-decoration: none;
+}
+.center{
+
+}
+.header{
+	background-color: rgb(228, 174, 108);
+	height: inherit;
+	width: 100%;
+	border-bottom: 2px solid black;
+	display: inline-block;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	.logo{
+		float: left;
+		.logoImg{
+			margin-left: 20px;
+			margin-right: 20px;
+			float: left;
+		}
+			img{
+				height: 100px;	
+				border-radius: 3px;
+				border: 3px solid black;
+			}
+		}
+		.logoName {
+			font-size: 50px;
+			float: left;
+			line-height: 100px;
+			//todo: jquery to vertically center
+		}
+	.link {
+		font-size: 35px;
+		float: right;
+		position: relative;
+		margin-right: 30px;
+		line-height: 80px;
+		margin-top: 10-2.5px;
+		margin-bottom: 10-2.5px;
+		//todo: jquery to vertically center (lineheight+margintop+marginbot = header's height - 5)
+		padding-left: 20px;
+		padding-right: 20px;
+		border-radius: 20px;
+		background-color: rgb(152, 95, 25);
+		border: 5px solid rgb(84, 52, 12);
+		&:hover{
+			border: 5px solid white	
+		}
+		a{
+			color: rgb(255, 235, 210);
+			display: block;
+		}
+	}
+}
