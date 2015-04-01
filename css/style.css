@@ -26,12 +26,12 @@ a {
       margin-right: 20px;
       float: left; }
     .header .logo img {
-      height: 100px;
-      border-radius: 3px;
-      border: 3px solid black; }
+      height: 100px; }
   .header .logoName {
     font-size: 50px;
     float: left;
+    font-family: raleway;
+    font-weight: bolder;
     line-height: 100px;
     color: #54340c; }
   .header .link {
@@ -52,5 +52,38 @@ a {
     .header .link a {
       color: #ffebd2;
       display: block; }
+
+.content .section1 {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.3);
+  display: inline-block;
+  float: left; }
+  .content .section1 .section {
+    padding-top: 70px;
+    padding-bottom: 50px;
+    width: 90%;
+    float: right; }
+    .content .section1 .section .left {
+      width: 50%;
+      float: left; }
+      .content .section1 .section .left img {
+        width: 50%;
+        float: right;
+        margin-right: 10px; }
+    .content .section1 .section .right {
+      width: 50%;
+      float: left; }
+      .content .section1 .section .right .top {
+        width: 100%;
+        float: left;
+        font-weight: bold;
+        font-size: 60px;
+        font-family: raleway;
+        color: #492B07; }
+      .content .section1 .section .right .bottom {
+        width: 100%;
+        font-size: 40px;
+        float: left;
+        color: #492B07; }
 
 /*# sourceMappingURL=style.css.map */

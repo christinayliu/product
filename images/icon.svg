@@ -5,71 +5,74 @@
 	 viewBox="0 0 300 300" enable-background="new 0 0 300 300" xml:space="preserve">
 <g id="XMLID_1_">
 	<g>
-		<path fill="#8A5F2A" d="M112.7,1v122h74.6V1H112.7z M9,0h282c5,0,9,4,9,9v282c0,5-4,9-9,9H9c-5,0-9-4-9-9V9C0,4,4,0,9,0z
-			 M245,275.4v-80h-80v80H245z M134.8,275.4v-80h-80v80H134.8z M104.7,89.5V12.3H8.2v77.2H104.7z"/>
-		<path fill="#D09666" d="M245,195.4v80h-80v-80H245z M206.7,233.1h21.4c0-6.4-2.6-12.2-6.8-16.3c-4.2-4.2-10-6.8-16.3-6.8
-			s-12.2,2.6-16.3,6.8c-4.2,4.2-6.8,10-6.8,16.3h21.4v21.1c0,2.4-1.6,3.4-5.1,3.4c-2.7,0-3.8-1-3.8-3.4c0-3.1-0.6-4.4-1.9-4.4
-			s-1.9,1.3-1.9,4.4c0,4.8,2.3,6.9,7.6,6.9c5.9,0,8.5-2.1,8.5-6.9L206.7,233.1L206.7,233.1z"/>
-		<path fill="#281100" d="M228.1,233.1h-21.4h-3.4h-21.4c0-6.4,2.6-12.2,6.8-16.3c4.2-4.2,10-6.8,16.3-6.8s12.2,2.6,16.3,6.8
-			C225.5,221,228.1,226.7,228.1,233.1z"/>
-		<rect x="203.3" y="233.1" fill="#281100" width="3.4" height="21.1"/>
-		<path fill="#281100" d="M203.3,254.2h3.4c0,4.8-2.6,6.9-8.5,6.9c-5.3,0-7.6-2.1-7.6-6.9c0-3.1,0.6-4.4,1.9-4.4s1.9,1.3,1.9,4.4
-			c0,2.4,1.2,3.4,3.8,3.4C201.8,257.6,203.3,256.6,203.3,254.2z"/>
-		<rect x="112.7" y="1" fill="#E29F26" width="74.6" height="122"/>
-		<path fill="#D09666" d="M134.8,195.4v80h-80v-80H134.8z M124.7,269.2V261h-12v-36.5h3.2l-8-20.8l-8,20.8h3.2V261H87.9v-36.5h3.2
-			l-8-20.8l-8,20.8h3.2V261H64.8v8.1h59.9V269.2z"/>
-		<polygon fill="#281100" points="124.7,261 124.7,269.2 64.8,269.2 64.8,261 78.3,261 87.9,261 103.1,261 112.7,261 		"/>
-		<polygon fill="#281100" points="107.9,203.7 115.9,224.5 112.7,224.5 103.1,224.5 99.9,224.5 		"/>
-		<rect x="103.1" y="224.5" fill="#281100" width="9.6" height="36.5"/>
-		<path fill="#FFFDE9" d="M104.7,12.3v77.2H8.2V12.3H104.7z M96.2,50.9V21h-3.1h-4.6h-2.1H85h-2.7h-1.9h-4.5h-1.7H73h-0.7h-1.1h-0.8
-			h-1.8h-3.7h-1.7h-1.1h-1h-1.5h-1.5H55h-1.3h-1.6h-1.5h-6.9h-1.5h-2.5h-2h-3.4h-2v-0.2h-2.5V21H27h-1.4v-0.1h-1.2V21h-1.7h-2.1
-			h-2.1h-2.3v30h2.3h2.1h2.1h1.7h1.2H27h2.8h2.5h2h3.4h2h2.5h1.5h6.9h1.5h1.6H55h3.3h1.5h1.5h1h1.1h1.7h3.7h1.8h0.8h1.1h0.7h1.2h1.7
-			h4.5h1.9H85h1.4h2.1h4.6L96.2,50.9L96.2,50.9z"/>
-		<rect x="93.1" y="20.9" fill="#FFFFFF" width="3.1" height="30"/>
-		<rect x="88.5" y="20.9" width="4.6" height="30"/>
-		<polygon fill="#281100" points="83.1,203.7 91.1,224.5 87.9,224.5 78.3,224.5 75.1,224.5 		"/>
-		<rect x="86.4" y="20.9" fill="#FFFFFF" width="2.1" height="30"/>
-		<rect x="78.3" y="224.5" fill="#281100" width="9.6" height="36.5"/>
-		<rect x="85" y="20.9" width="1.4" height="30"/>
-		<rect x="82.3" y="20.9" fill="#FFFFFF" width="2.7" height="30"/>
-		<rect x="80.4" y="20.9" width="1.9" height="30"/>
-		<rect x="75.9" y="20.9" fill="#FFFFFF" width="4.5" height="30"/>
-		<rect x="74.3" y="20.9" width="1.6" height="30"/>
-		<rect x="73.1" y="20.9" fill="#FFFFFF" width="1.2" height="30"/>
-		<rect x="72.4" y="20.9" width="0.7" height="30"/>
-		<rect x="71.3" y="20.9" fill="#FFFFFF" width="1.1" height="30"/>
-		<rect x="70.5" y="20.9" width="0.8" height="30"/>
-		<rect x="68.8" y="20.9" fill="#FFFFFF" width="1.8" height="30"/>
-		<rect x="65.1" y="20.9" width="3.7" height="30"/>
-		<rect x="63.4" y="20.9" fill="#FFFFFF" width="1.7" height="30"/>
-		<rect x="62.3" y="20.9" width="1.1" height="30"/>
-		<rect x="61.3" y="20.9" fill="#FFFFFF" width="1" height="30"/>
-		<rect x="59.9" y="20.9" width="1.5" height="30"/>
-		<rect x="58.3" y="20.9" fill="#FFFFFF" width="1.5" height="30"/>
-		<rect x="55" y="20.9" width="3.3" height="30"/>
-		<rect x="53.7" y="20.9" fill="#FFFFFF" width="1.3" height="30"/>
-		<rect x="52.1" y="20.9" width="1.6" height="30"/>
-		<rect x="50.6" y="20.9" fill="#FFFFFF" width="1.5" height="30"/>
-		<rect x="43.7" y="20.9" width="6.9" height="30"/>
-		<rect x="42.2" y="20.9" fill="#FFFFFF" width="1.5" height="30"/>
-		<rect x="39.7" y="20.9" width="2.5" height="30"/>
-		<rect x="37.8" y="20.9" fill="#FFFFFF" width="2" height="30"/>
-		<rect x="34.3" y="20.9" width="3.4" height="30"/>
-		<rect x="32.3" y="20.9" fill="#FFFFFF" width="2" height="30"/>
-		<rect x="29.8" y="20.9" width="2.5" height="30"/>
-		<rect x="29.8" y="20.8" width="2.5" height="0.2"/>
-		<rect x="27.1" y="20.9" fill="#FFFFFF" width="2.8" height="30"/>
-		<rect x="25.7" y="20.9" width="1.4" height="30"/>
-		<rect x="24.5" y="20.9" fill="#FFFFFF" width="1.2" height="30"/>
-		<rect x="24.5" y="20.9" fill="#FFFFFF" width="1.2" height="0.1"/>
-		<rect x="22.9" y="20.9" width="1.7" height="30"/>
-		<rect x="20.7" y="20.9" fill="#FFFFFF" width="2.1" height="30"/>
-		<rect x="18.7" y="20.9" width="2.1" height="30"/>
-		<rect x="16.4" y="20.9" fill="#FFFFFF" width="2.3" height="30"/>
+		<path fill="#8A5F2A" d="M113.9,6v117.9h72.1V6H113.9z M13.7,5h272.6c4.8,0,8.7,3.9,8.7,8.7v272.6c0,4.8-3.9,8.7-8.7,8.7H13.7
+			c-4.8,0-8.7-3.9-8.7-8.7V13.7C5,8.9,8.9,5,13.7,5z M241.8,271.2v-77.3h-77.3v77.3H241.8z M135.3,271.2v-77.3H58v77.3H135.3z
+			 M106.2,91.5V16.9H12.9v74.6H106.2z"/>
+		<path fill="#D09666" d="M241.8,193.9v77.3h-77.3v-77.3H241.8z M204.8,230.3h20.7c0-6.2-2.5-11.8-6.6-15.8
+			c-4.1-4.1-9.7-6.6-15.8-6.6c-6.1,0-11.8,2.5-15.8,6.6c-4.1,4.1-6.6,9.7-6.6,15.8h20.7v20.4c0,2.3-1.5,3.3-4.9,3.3
+			c-2.6,0-3.7-1-3.7-3.3c0-3-0.6-4.3-1.8-4.3c-1.3,0-1.8,1.3-1.8,4.3c0,4.6,2.2,6.7,7.3,6.7c5.7,0,8.2-2,8.2-6.7L204.8,230.3
+			L204.8,230.3z"/>
+		<path fill="#281100" d="M225.5,230.3h-20.7h-3.3h-20.7c0-6.2,2.5-11.8,6.6-15.8c4.1-4.1,9.7-6.6,15.8-6.6c6.1,0,11.8,2.5,15.8,6.6
+			C223,218.6,225.5,224.1,225.5,230.3z"/>
+		<rect x="201.5" y="230.3" fill="#281100" width="3.3" height="20.4"/>
+		<path fill="#281100" d="M201.5,250.7h3.3c0,4.6-2.5,6.7-8.2,6.7c-5.1,0-7.3-2-7.3-6.7c0-3,0.6-4.3,1.8-4.3s1.8,1.3,1.8,4.3
+			c0,2.3,1.2,3.3,3.7,3.3C200.1,254,201.5,253,201.5,250.7z"/>
+		<rect x="113.9" y="6" fill="#E29F26" width="72.1" height="117.9"/>
+		<path fill="#D09666" d="M135.3,193.9v77.3H58v-77.3H135.3z M125.5,265.2v-7.9h-11.6V222h3.1l-7.7-20.1l-7.7,20.1h3.1v35.3H90V222
+			h3.1l-7.7-20.1L77.6,222h3.1v35.3h-13v7.8L125.5,265.2C125.5,265.1,125.5,265.2,125.5,265.2z"/>
+		<polygon fill="#281100" points="125.5,257.3 125.5,265.2 67.6,265.2 67.6,257.3 80.7,257.3 90,257.3 104.7,257.3 113.9,257.3 		
+			"/>
+		<polygon fill="#281100" points="109.3,201.9 117,222 113.9,222 104.7,222 101.6,222 		"/>
+		<rect x="104.7" y="222" fill="#281100" width="9.3" height="35.3"/>
+		<path fill="#FFFDE9" d="M106.2,16.9v74.6H12.9V16.9H106.2z M98,54.2V25.3h-3h-4.4h-2h-1.4h-2.6h-1.8h-4.3h-1.6h-1.2h-0.7h-1.1
+			h-0.8h-1.7h-3.6h-1.6H65h-1h-1.5h-1.5h-3h-1.3h-1.5h-1.5h-6.7h-1.5h-2.4h-1.9h-3.3h-1.9v-0.2h-2.4v0.2h-2.7h-1.4v-0.1h-1.2v0.1
+			h-1.6h-2h-2h-2.2v29h2.2h2h2h1.6h1.2h1.4h2.7h2.4h1.9h3.3h1.9h2.4h1.5h6.7h1.5h1.5h1.3h3.2h1.5h1.5h1h1.1h1.6h3.6h1.7H74h1.1h0.7
+			h1.2h1.6h4.3h1.8h2.4h1.4h2H95L98,54.2L98,54.2z"/>
+		<rect x="95" y="25.2" fill="#FFFFFF" width="3" height="29"/>
+		<rect x="90.5" y="25.2" width="4.4" height="29"/>
+		<polygon fill="#281100" points="85.3,201.9 93.1,222 90,222 80.7,222 77.6,222 		"/>
+		<rect x="88.5" y="25.2" fill="#FFFFFF" width="2" height="29"/>
+		<rect x="80.7" y="222" fill="#281100" width="9.3" height="35.3"/>
+		<rect x="87.2" y="25.2" width="1.4" height="29"/>
+		<rect x="84.6" y="25.2" fill="#FFFFFF" width="2.6" height="29"/>
+		<rect x="82.7" y="25.2" width="1.8" height="29"/>
+		<rect x="78.4" y="25.2" fill="#FFFFFF" width="4.3" height="29"/>
+		<rect x="76.8" y="25.2" width="1.5" height="29"/>
+		<rect x="75.7" y="25.2" fill="#FFFFFF" width="1.2" height="29"/>
+		<rect x="75" y="25.2" width="0.7" height="29"/>
+		<rect x="73.9" y="25.2" fill="#FFFFFF" width="1.1" height="29"/>
+		<rect x="73.2" y="25.2" width="0.8" height="29"/>
+		<rect x="71.5" y="25.2" fill="#FFFFFF" width="1.7" height="29"/>
+		<rect x="67.9" y="25.2" width="3.6" height="29"/>
+		<rect x="66.3" y="25.2" fill="#FFFFFF" width="1.6" height="29"/>
+		<rect x="65.2" y="25.2" width="1.1" height="29"/>
+		<rect x="64.3" y="25.2" fill="#FFFFFF" width="1" height="29"/>
+		<rect x="62.9" y="25.2" width="1.5" height="29"/>
+		<rect x="61.4" y="25.2" fill="#FFFFFF" width="1.5" height="29"/>
+		<rect x="58.2" y="25.2" width="3.2" height="29"/>
+		<rect x="56.9" y="25.2" fill="#FFFFFF" width="1.3" height="29"/>
+		<rect x="55.4" y="25.2" width="1.5" height="29"/>
+		<rect x="53.9" y="25.2" fill="#FFFFFF" width="1.5" height="29"/>
+		<rect x="47.2" y="25.2" width="6.7" height="29"/>
+		<rect x="45.8" y="25.2" fill="#FFFFFF" width="1.5" height="29"/>
+		<rect x="43.4" y="25.2" width="2.4" height="29"/>
+		<rect x="41.5" y="25.2" fill="#FFFFFF" width="1.9" height="29"/>
+		<rect x="38.2" y="25.2" width="3.3" height="29"/>
+		<rect x="36.2" y="25.2" fill="#FFFFFF" width="1.9" height="29"/>
+		<rect x="33.8" y="25.2" width="2.4" height="29"/>
+		<rect x="33.8" y="25.1" width="2.4" height="0.2"/>
+		<rect x="31.2" y="25.2" fill="#FFFFFF" width="2.7" height="29"/>
+		<rect x="29.8" y="25.2" width="1.4" height="29"/>
+		<rect x="28.7" y="25.2" fill="#FFFFFF" width="1.2" height="29"/>
+		<rect x="28.7" y="25.2" fill="#FFFFFF" width="1.2" height="0.1"/>
+		<rect x="27.1" y="25.2" width="1.6" height="29"/>
+		<rect x="25" y="25.2" fill="#FFFFFF" width="2" height="29"/>
+		<rect x="23.1" y="25.2" width="2" height="29"/>
+		<rect x="20.9" y="25.2" fill="#FFFFFF" width="2.2" height="29"/>
 	</g>
 	<g>
-		<path fill="none" stroke="#000000" stroke-width="10" stroke-miterlimit="10" d="M291,300H9c-5,0-9-4-9-9V9c0-5,4-9,9-9h282
-			c5,0,9,4,9,9v282C300,296,296,300,291,300z"/>
+		<path fill="none" stroke="#000000" stroke-width="10" stroke-miterlimit="10" d="M286.3,295H13.7c-4.8,0-8.7-3.9-8.7-8.7V13.7
+			C5,8.9,8.9,5,13.7,5h272.6c4.8,0,8.7,3.9,8.7,8.7v272.6C295,291.1,291.1,295,286.3,295z"/>
 	</g>
 </g>
 </svg>
