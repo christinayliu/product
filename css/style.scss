@@ -8,11 +8,14 @@ body{
 a{
 	text-decoration: none;
 }
-.center{
-
+.background{
+	z-index: -1000;
+	position: fixed;
+	width: 100%;
+	margin-top: -300px;
 }
 .header{
-	background-color: rgb(228, 174, 108);
+	background-color: rgba(221, 135, 32, 0.51);
 	height: inherit;
 	width: 100%;
 	border-bottom: 2px solid black;
@@ -36,6 +39,7 @@ a{
 			font-size: 50px;
 			float: left;
 			line-height: 100px;
+			color: rgb(84, 52, 12);
 			//todo: jquery to vertically center
 		}
 	.link {
