@@ -43,25 +43,25 @@ a{
 			//todo: jquery to vertically center
 		}
 	.link {
-		font-size: 35px;
-		float: right;
-		position: relative;
-		margin-right: 30px;
-		line-height: 80px;
-		margin-top: 10-2.5px;
-		margin-bottom: 10-2.5px;
-		//todo: jquery to vertically center (lineheight+margintop+marginbot = header's height - 5)
-		padding-left: 20px;
-		padding-right: 20px;
-		border-radius: 20px;
-		background-color: rgb(152, 95, 25);
-		border: 5px solid rgb(84, 52, 12);
-		&:hover{
-			border: 5px solid white	
-		}
 		a{
+			font-size: 35px;
+			float: right;
+			position: relative;
+			margin-right: 30px;
+			line-height: 80px;
+			margin-top: 10-2.5px;
+			margin-bottom: 10-2.5px;
+			//todo: jquery to vertically center (lineheight+margintop+marginbot = header's height - 5)
+			padding-left: 20px;
+			padding-right: 20px;
+			border-radius: 20px;
+			background-color: rgb(152, 95, 25);
+			border: 5px solid rgb(84, 52, 12);
 			color: rgb(255, 235, 210);
 			display: block;
+			&:hover{
+				border: 5px solid white	
+			}
 		}
 	}
 }

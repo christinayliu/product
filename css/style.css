@@ -34,7 +34,7 @@ a {
     font-weight: bolder;
     line-height: 100px;
     color: #54340c; }
-  .header .link {
+  .header .link a {
     font-size: 35px;
     float: right;
     position: relative;
@@ -46,12 +46,11 @@ a {
     padding-right: 20px;
     border-radius: 20px;
     background-color: #985f19;
-    border: 5px solid #54340c; }
-    .header .link:hover {
+    border: 5px solid #54340c;
+    color: #ffebd2;
+    display: block; }
+    .header .link a:hover {
       border: 5px solid white; }
-    .header .link a {
-      color: #ffebd2;
-      display: block; }
 
 .content .section1 {
   width: 100%;
