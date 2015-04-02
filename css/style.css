@@ -158,5 +158,8 @@ a {
           padding-top: 10px;
           padding-left: 20%;
           padding-right: 20%; }
+          .content .section3 .section .right .bottom .mini {
+            margin-top: 5px;
+            font-size: 14px; }
 
 /*# sourceMappingURL=style.css.map */
