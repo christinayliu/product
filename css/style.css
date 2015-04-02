@@ -87,5 +87,76 @@ a {
           font-size: 40px;
           float: left;
           color: #492B07; }
+  .content .section2 {
+    width: 100%;
+    background-color: rgba(16, 7, 123, 0.48);
+    display: inline-block;
+    float: left; }
+    .content .section2 .section {
+      padding-top: 70px;
+      padding-bottom: 50px;
+      width: 90%;
+      float: right; }
+      .content .section2 .section .top {
+        color: #c2cde0;
+        text-align: left;
+        padding-left: 20%;
+        font-size: 60px; }
+      .content .section2 .section .bottom {
+        color: #c2cde0;
+        font-family: raleway;
+        text-align: left;
+        text-indent: 60px;
+        font-size: 30px;
+        padding-top: 10px;
+        padding-left: 20%;
+        padding-right: 20%; }
+  .content .section3 {
+    width: 100%;
+    background-color: rgba(196, 196, 44, 0.24);
+    display: inline-block;
+    float: left; }
+    .content .section3 .section {
+      padding-top: 150px;
+      padding-bottom: 50px;
+      width: 90%;
+      float: right; }
+      .content .section3 .section .left {
+        width: 50%;
+        float: left; }
+        .content .section3 .section .left .image {
+          width: 50%;
+          float: right;
+          margin-right: 30px; }
+          .content .section3 .section .left .image .smallBox {
+            margin-left: 25%;
+            margin-right: 25%;
+            width: 50%; }
+          .content .section3 .section .left .image .lidLeft {
+            z-index: 51;
+            width: 50%;
+            float: left; }
+          .content .section3 .section .left .image .lidRight {
+            z-index: 52;
+            width: 50%;
+            float: right; }
+          .content .section3 .section .left .image .bigBox {
+            z-index: 50; }
+      .content .section3 .section .right {
+        width: 50%;
+        float: left; }
+        .content .section3 .section .right .top {
+          color: #24261c;
+          text-align: left;
+          padding-left: 20%;
+          font-size: 60px; }
+        .content .section3 .section .right .bottom {
+          color: #24261c;
+          font-family: raleway;
+          text-align: left;
+          font-size: 30px;
+          padding-top: 10px;
+          padding-left: 20%;
+          padding-right: 20%; }
 
 /*# sourceMappingURL=style.css.map */
