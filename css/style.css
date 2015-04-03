@@ -3,7 +3,27 @@ html {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover; }
+  background-size: cover;
+  border-right: 2px solid #c7c7c7; }
+
+::-webkit-scrollbar {
+  width: 12px;
+  background-color: #afafaf; }
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background-color: #afafaf; }
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: #a3651c;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5); }
+
+::-webkit-scrollbar-thumb:window-inactive {
+  background: #dd8720; }
 
 body {
   font-family: Lato;
@@ -16,7 +36,29 @@ a {
   background-color: rgba(255, 0, 0, 0);
   position: fixed;
   width: 10%;
-  height: 100%; }
+  height: 100%;
+  padding-top: 12%; }
+  .sidebar .map {
+    background-color: transparent;
+    width: 100%;
+    height: 60%;
+    border-radius: 30px;
+    margin-left: 10px;
+    margin-right: 10px; }
+    .sidebar .map .dotLink {
+      width: 100%;
+      float: left; }
+      .sidebar .map .dotLink .dot {
+        width: 25px;
+        height: 25px;
+        border-radius: 25px;
+        margin: 10px;
+        background-color: #bcbcbc;
+        border: 5px solid #272727;
+        display: inherit; }
+        .sidebar .map .dotLink .dot:hover {
+          border: 5px solid #000000;
+          background-color: white; }
 
 .header {
   background-color: rgba(221, 135, 32, 0.51);
@@ -171,7 +213,7 @@ a {
           padding-right: 20%; }
           .content .section3 .section .right .bottom .mini {
             margin-top: 5px;
-            font-size: 14px; }
+            font-size: 16px; }
   .content .section4 {
     width: 100%;
     background-color: rgba(134, 21, 21, 0.48);
