@@ -54,6 +54,7 @@ a{
 			width: 100%;
 			float: left;
 			.dot{
+					//change color when scroll position is height of header+section1, then header+section1+section2, etc.
 					width: 25px;
 					height: 25px;
 					border-radius: 25px;
