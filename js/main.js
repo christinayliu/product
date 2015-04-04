@@ -1,0 +1,100 @@
+window.today = new Date();
+window.dd = today.getDate();
+window.mm = today.getMonth()+1; //January is 0!
+window.yyyy = today.getFullYear();
+
+if(mm==2){
+	if(dd==28){
+		dd=1;
+		mm=3;
+	}
+	else{
+		dd=dd+1;	
+	}
+}
+else if(mm==12){
+	if(dd==31){
+		dd=1;
+		mm=1;
+	}
+	else{
+		dd=dd+1;	
+	}
+}
+else if(mm==1||mm==3||mm==5||mm==7||mm==8||mm==10){
+	if(dd==31){
+		dd=1;
+		mm=mm+1;
+	}
+	else{
+		dd=dd+1;	
+	}
+}
+else if(mm==4||mm==6||mm==9||mm==11){
+	if(dd==30){
+		dd=1;
+		mm=mm+1;
+	}
+	else{
+		dd=dd+1;
+	}
+}
+
+if(mm==1){
+	month = "Jan ";
+}
+else if(mm==2){
+	month = "Feb ";
+}
+else if(mm==3){
+	month = "Mar ";
+}
+else if(mm==4){
+	month = "Apr ";
+}
+else if(mm==5){
+	month = "May ";
+}
+else if(mm==6){
+	month = "Jun ";
+}
+else if(mm==7){
+	month = "Jul ";
+}
+else if(mm==8){
+	month = "Aug ";
+}
+else if(mm==9){
+	month = "Sept ";
+}
+else if(mm==10){
+	month = "Oct ";
+}
+else if(mm==11){
+	month = "Nov ";
+}
+else if(mm==12){
+	month = "Dec ";
+}
+
+if(dd==1||dd==21||dd==31){
+	window.suffix = "st";
+}
+else if(dd==2||dd==22){
+	window.suffix = "nd";
+}
+else if(dd==3||dd==23){
+	window.suffix = "rd";
+}
+else{
+	window.suffix = "th";
+}
+
+window.tomorrow = month + dd + suffix;
+// the above code could have been written more efficiently, I guess.
+// it doesn't account for leap years but it's just to change "coming (date+1)"
+
+$( document ).ready(function() {
+    // DOM modifying stuff goes here:
+	$("#changeDate").html("Coming " + tomorrow);
+});

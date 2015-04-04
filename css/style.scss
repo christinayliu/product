@@ -4,29 +4,28 @@ html{
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	border-right: 2px solid #c7c7c7;
 }
 ////custom scrollbar
 ::-webkit-scrollbar {
-    width: 12px;
-	background-color: #afafaf;
+    width: 1em;
+	background-color: rgb(232, 189, 138);
 }
 
 ::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
     -webkit-border-radius: 10px;
     border-radius: 10px;
-	background-color: #afafaf;
+	background-color: rgba(209, 144, 65, 0);//0 opacity so it doesn't matter anyway.
 }
 
 ::-webkit-scrollbar-thumb {
     -webkit-border-radius: 10px;
     border-radius: 10px;
-    background: rgb(163, 101, 28); 
+    background: rgb(221, 135, 32); 
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
 }
 ::-webkit-scrollbar-thumb:window-inactive {
-	background: rgb(221, 135, 32); 
+	background: rgb(235, 179, 112); 
 }
 ////
 
@@ -42,6 +41,7 @@ a{
 	position: fixed;
 	width: 10%;
 	height: 100%;
+	display: none; //uncomment if you want to use the (unfinished) sidebar
 	padding-top: 12%; //set to the header height
 	.map{
 		background-color: rgba(0, 0, 0, 0);
@@ -123,9 +123,14 @@ a{
 }
 .content{
 	margin-top: -5px;
-//	.sectionNumber .section{
-//		border-left: 3px solid rgba(116, 116, 116, 0.49);
-//	}
+	.sectionNumber .section{
+		padding-left: 3%;
+		padding-right: 3%;
+		margin-bottom: 70px;
+		margin-top: 70px;
+		display: inline-block;
+		//width: 90%; uncomment if you decide to use the (uncompleted) sidebar
+	}
 	.section1{
 		width: 100%;
 		background-color: rgba(255, 255, 255, 0.3);
@@ -134,8 +139,6 @@ a{
 		.section{
 			padding-top: 70px;
 			padding-bottom: 50px;
-			width: 90%;
-			float: right;
 			.left{
 				width: 50%;
 				float: left;
@@ -174,8 +177,6 @@ a{
 		.section{
 			padding-top: 70px;
 			padding-bottom: 50px;
-			width: 90%;
-			float: right;
 			.top{
 				color: $fontColor;
 				text-align: left;
@@ -203,8 +204,6 @@ a{
 		.section{
 			padding-top: 150px;
 			padding-bottom: 50px;
-			width: 90%;
-			float: right;
 			.left{
 				width: 50%;
 				float: left;
@@ -272,8 +271,6 @@ a{
 		.section{
 			padding-top: 70px;
 			padding-bottom: 50px;
-			width: 90%;
-			float: right;
 			.top{
 				color: $fontColor;
 				text-align: center;
@@ -326,8 +323,7 @@ a{
 		.section{
 			padding-top: 70px;
 			padding-bottom: 50px;
-			width: 90%;
-			float: right;
+			display: block;
 			.top{
 				width: 100%;
 				color: $fontColor;

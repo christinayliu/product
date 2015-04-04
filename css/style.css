@@ -3,27 +3,26 @@ html {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
-  border-right: 2px solid #c7c7c7; }
+  background-size: cover; }
 
 ::-webkit-scrollbar {
-  width: 12px;
-  background-color: #afafaf; }
+  width: 1em;
+  background-color: #e8bd8a; }
 
 ::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
   -webkit-border-radius: 10px;
   border-radius: 10px;
-  background-color: #afafaf; }
+  background-color: rgba(209, 144, 65, 0); }
 
 ::-webkit-scrollbar-thumb {
   -webkit-border-radius: 10px;
   border-radius: 10px;
-  background: #a3651c;
+  background: #dd8720;
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5); }
 
 ::-webkit-scrollbar-thumb:window-inactive {
-  background: #dd8720; }
+  background: #ebb370; }
 
 body {
   font-family: Lato;
@@ -37,6 +36,7 @@ a {
   position: fixed;
   width: 10%;
   height: 100%;
+  display: none;
   padding-top: 12%; }
   .sidebar .map {
     background-color: transparent;
@@ -103,6 +103,12 @@ a {
 
 .content {
   margin-top: -5px; }
+  .content .sectionNumber .section {
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-bottom: 70px;
+    margin-top: 70px;
+    display: inline-block; }
   .content .section1 {
     width: 100%;
     background-color: rgba(255, 255, 255, 0.3);
@@ -110,9 +116,7 @@ a {
     float: left; }
     .content .section1 .section {
       padding-top: 70px;
-      padding-bottom: 50px;
-      width: 90%;
-      float: right; }
+      padding-bottom: 50px; }
       .content .section1 .section .left {
         width: 50%;
         float: left; }
@@ -142,9 +146,7 @@ a {
     float: left; }
     .content .section2 .section {
       padding-top: 70px;
-      padding-bottom: 50px;
-      width: 90%;
-      float: right; }
+      padding-bottom: 50px; }
       .content .section2 .section .top {
         color: #d9dfea;
         text-align: left;
@@ -166,9 +168,7 @@ a {
     float: left; }
     .content .section3 .section {
       padding-top: 150px;
-      padding-bottom: 50px;
-      width: 90%;
-      float: right; }
+      padding-bottom: 50px; }
       .content .section3 .section .left {
         width: 50%;
         float: left;
@@ -221,9 +221,7 @@ a {
     float: left; }
     .content .section4 .section {
       padding-top: 70px;
-      padding-bottom: 50px;
-      width: 90%;
-      float: right; }
+      padding-bottom: 50px; }
       .content .section4 .section .top {
         color: #e3e3e3;
         text-align: center;
@@ -265,8 +263,7 @@ a {
     .content .section5 .section {
       padding-top: 70px;
       padding-bottom: 50px;
-      width: 90%;
-      float: right; }
+      display: block; }
       .content .section5 .section .top {
         width: 100%;
         color: #caf4c0;
