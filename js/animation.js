@@ -12,12 +12,18 @@ $.fn.animateRotate = function(angle, duration, easing, complete) {
   });
 };
 
+$(window).load(function() {
+    // DOM modifying stuff goes here:
+	$("#imageHolder").css('margin-top',($("#glow").height() / 2 + $("#smallBox").height() / 2))
+	$("#imageHolder").height($("#bigBox").height()).css({});
+	window.animationRan = false;
+});
+
 $(window).scroll(function () {
-	$('#bigBox').each(function () {
+	$("#bigBox").each(function () {
         var imagePos = $(this).offset().top;
         var imageHeight = $(this).height();
-        var topOfWindow = $(window).scrollTop();
-
+        var topOfWindow = $(window).scrollTop() + $("#bigBox").height()/2;
         if (imagePos < topOfWindow + imageHeight && imagePos + imageHeight > topOfWindow) {
 			if(window.animationRan==false){
 				window.animationRan = true;
@@ -45,22 +51,7 @@ $(window).scroll(function () {
 		else {
             if(window.animationRan==true){
 				//reverse animation stuff here
-				$("#glow").animate({
-					top: "0px"
-			  	}, 0 );
-				$("#smallBox").animate({
-					top: "0px"
-				}, 0 );
-				$("#lidRight").animateRotate(0, {
-				  duration: 0,
-				  easing: 'linear'
-				});
-				$("#lidLeft").animateRotate(0, {
-				  duration: 0,
-				  easing: 'linear'
-				});
 			}
-			window.animationRan=false;
         }
     });
 });

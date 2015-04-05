@@ -1,8 +1,7 @@
 //Disregard these notes
 //950px works but change section2 padding/margin stuff
 //TODO:
-//1) openup animation
-//2) mobile optimization
+//1) mobile optimization
 
 html{
 	background: url(../images/background.svg) no-repeat center center fixed; 
@@ -219,6 +218,7 @@ $small: 16px;
 				float: left;
 				position: relative;
 				.image{
+					margin-top: 300px;
 					width: 50%;
 					float: right;
 					margin-right: 30px;
