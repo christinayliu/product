@@ -41,40 +41,40 @@ else if(mm==4||mm==6||mm==9||mm==11){
 }
 
 if(mm==1){
-	month = "Jan ";
+	month = "Jan";
 }
 else if(mm==2){
-	month = "Feb ";
+	month = "Feb";
 }
 else if(mm==3){
-	month = "Mar ";
+	month = "Mar";
 }
 else if(mm==4){
-	month = "Apr ";
+	month = "Apr";
 }
 else if(mm==5){
-	month = "May ";
+	month = "May";
 }
 else if(mm==6){
-	month = "Jun ";
+	month = "Jun";
 }
 else if(mm==7){
-	month = "Jul ";
+	month = "Jul";
 }
 else if(mm==8){
-	month = "Aug ";
+	month = "Aug";
 }
 else if(mm==9){
-	month = "Sept ";
+	month = "Sept";
 }
 else if(mm==10){
-	month = "Oct ";
+	month = "Oct";
 }
 else if(mm==11){
-	month = "Nov ";
+	month = "Nov";
 }
 else if(mm==12){
-	month = "Dec ";
+	month = "Dec";
 }
 
 if(dd==1||dd==21||dd==31){
@@ -90,11 +90,14 @@ else{
 	window.suffix = "th";
 }
 
-window.tomorrow = month + dd + suffix;
+window.tomorrow = month + ". " + dd + suffix;
 // the above code could have been written more efficiently, I guess.
 // it doesn't account for leap years but it's just to change "coming (date+1)"
 
-$( document ).ready(function() {
+$(window).load(function() {
     // DOM modifying stuff goes here:
 	$("#changeDate").html("Coming " + tomorrow);
+	$("#firstText").css('margin-top', ($("#first").height() - $("#firstText").height()) / 2);
+	$("#secondText").css('margin-top', ($("#second").height() - $("#secondText").height()) / 2);
+	$("#thirdText").css('margin-top', ($("#third").height() - $("#thirdText").height()) / 2);
 });
