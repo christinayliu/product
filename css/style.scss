@@ -1,3 +1,9 @@
+//Disregard these notes
+//950px works but change section2 padding/margin stuff
+//TODO:
+//1) openup animation
+//2) mobile optimization
+
 html{
 	background: url(../images/background.svg) no-repeat center center fixed; 
 	-webkit-background-size: cover;
@@ -216,35 +222,41 @@ $small: 16px;
 					width: 50%;
 					float: right;
 					margin-right: 30px;
+					position: relative;
 					.glow{
 						z-index: -48;
+						position: absolute;
 					}
 					.smallBox{
 						margin-left: 25%;
 						margin-right: 25%;
 						width: 50%;
-						margin-top: -100%;
 						z-index: 49;
+						position: absolute;
 					}
 					.lidLeft{
 						z-index: 51;
 						width: 50%;
+						padding-right: 50%;
 						float: left;
-						top: 100%;
+						position: absolute;
 					}
 					.lidRight{
 						z-index: 52;
 						width: 50%;
+						padding-left: 50%;
 						float: right;
+						position: absolute;
 					}
 					.bigBox{
 						z-index: 50;
+						position: absolute;
 					}
 				}
 			}
 			.right{
 				width: 50%;
-				float: left;
+				float: right;
 				.top{
 					color: $fontColor;
 					text-align: left;
@@ -299,6 +311,7 @@ $small: 16px;
 					background-color: $bgColorA;
 				}
 				.color{
+					width: 100%;
 					display: inline-block;
 					.category{
 						margin-top: 30px;
@@ -375,6 +388,7 @@ $small: 16px;
 				color: $fontColor;
 				text-align: center;
 				font-size: $large;
+				display: block;
 			}
 			.bottom{
 				text-align: center;

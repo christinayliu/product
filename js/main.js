@@ -93,6 +93,7 @@ else{
 window.tomorrow = month + ". " + dd + suffix;
 // the above code could have been written more efficiently, I guess.
 // it doesn't account for leap years but it's just to change "coming (date+1)"
+// if you don't want that text, then feel free to delete relevant portions from the DOM, below here, and all code above this line.
 
 $(window).load(function() {
     // DOM modifying stuff goes here:
@@ -100,4 +101,5 @@ $(window).load(function() {
 	$("#firstText").css('margin-top', ($("#first").height() - $("#firstText").height()) / 2);
 	$("#secondText").css('margin-top', ($("#second").height() - $("#secondText").height()) / 2);
 	$("#thirdText").css('margin-top', ($("#third").height() - $("#thirdText").height()) / 2);
+	//add more for each section in section4
 });
