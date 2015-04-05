@@ -240,6 +240,8 @@ $small: 16px;
 						padding-right: 50%;
 						float: left;
 						position: absolute;
+						-webkit-transform-origin: center left;
+						transform-origin: center left;
 					}
 					.lidRight{
 						z-index: 52;
@@ -247,9 +249,11 @@ $small: 16px;
 						padding-left: 50%;
 						float: right;
 						position: absolute;
+						-webkit-transform-origin: center right;
+						transform-origin: center right;
 					}
 					.bigBox{
-						z-index: 50;
+						z-index: 55;
 						position: absolute;
 					}
 				}
