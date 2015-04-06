@@ -97,7 +97,18 @@ window.tomorrow = month + ". " + dd + suffix;
 
 $(window).load(function() {
     // DOM modifying stuff goes here:
+	$("#actualImage").css("width", ($("html").width()*10/100));
+
+	$("#headerLink").css("margin-top", ($("#header").height() - $("#headerLink").height() - 5)/3);
+	$("#headerLink").css("margin-bottom", ($("#header").height() - $("#headerLink").height() - 5)/3);
+	$("#headerLink").css("padding-top", ($("#header").height() - $("#headerLink").height() - 5)/3/2);
+	$("#headerLink").css("padding-bottom", ($("#header").height() - $("#headerLink").height() - 5)/3/2);
+
+	$(".logoName").css("margin-top", ($("#header").height() - $(".logoName").height())/2);
+	$(".logoName").css("margin-bottom", ($("#header").height() - $(".logoName").height())/2);
+
 	$("#changeDate").html("Coming " + tomorrow);
+
 	$("#firstText").css('margin-top', ($("#first").height() - $("#firstText").height()) / 2);
 	$("#secondText").css('margin-top', ($("#second").height() - $("#secondText").height()) / 2);
 	$("#thirdText").css('margin-top', ($("#third").height() - $("#thirdText").height()) / 2);

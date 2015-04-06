@@ -34,6 +34,49 @@ html{
 }
 ////
 
+//3000 px wide
+$breakA: 3000px;
+$oneA: 170px;
+$twoA: 100px;
+$threeA: 90px;
+$fourA: 70px; //Line height 140px
+$fiveA: 20px;
+$sixA: 45px;
+
+//2000 px wide
+$breakB: 2000px;
+$oneB: 120px;
+$twoB: 80px;
+$threeB: 40px;
+$fourB: 30px;
+$fiveB: 20px;
+$sixB: 16px;
+
+//
+$oneC: 60px;
+$twoC: 50px;
+$threeC: 40px;
+$fourC: 30px;
+$fiveC: 20px;
+$sixC: 16px;
+
+//
+$oneD: 60px;
+$twoD: 50px;
+$threeD: 40px;
+$fourD: 30px;
+$fiveD: 20px;
+$sixD: 16px;
+
+$one: 60px;
+$two: 50px;
+$three: 40px;
+$four: 30px;
+$five: 20px;
+$six: 16px;
+//SASS won't support defining variables inside of @media queries :/
+
+
 body{
 	font-family: Lato;
 	margin: 0px;
@@ -91,27 +134,26 @@ a{
 			float: left;
 		}
 			img{
-				height: 100px;
+			//	width: 100%;
 			}
 		}
 		.logoName {
-			font-size: 50px;
-			float: left;
+			font-size: $two;
+			float: right;
 			font-family: raleway;
 			font-weight: bolder;
-			line-height: 100px;
 			color: rgb(84, 52, 12);
 			//todo: jquery to vertically center
 		}
 	.link {
 		a{
-			font-size: 35px;
+			font-size: $four;
 			float: right;
 			position: relative;
 			margin-right: 30px;
 			line-height: 80px;
-			margin-top: 10-2.5px;
-			margin-bottom: 10-2.5px;
+			margin-top: 8.5px;
+			margin-bottom: 8.5px;
 			//todo: jquery to vertically center (lineheight+margintop+marginbot = header's height - 5)
 			padding-left: 20px;
 			padding-right: 20px;
@@ -127,11 +169,8 @@ a{
 	}
 }
 
-$large: 60px;
-$mediumLarge: 40px;
-$medium: 30px;
-$mediumSmall: 20px;
-$small: 16px;
+
+
 
 .content{
 	margin-top: -5px;
@@ -152,8 +191,8 @@ $small: 16px;
 		}
 	}
 	
-	//////things that apply to all sections above
-	//////things that apply to individual sections below
+	//////things that apply to all sections are above
+	//////things that apply to only individual sections are below
 	
 	.section1{
 		background-color: rgba(255, 255, 255, 0.3);
@@ -174,13 +213,13 @@ $small: 16px;
 					width: 100%;
 					float: left;
 					font-weight: bold;
-					font-size: $large;
+					font-size: $one;
 					font-family: raleway;
 					color: #492B07;
 				}
 				.bottom{
 					width: 100%;
-					font-size: $mediumLarge;
+					font-size: $three;
 					float: left;
 					color: #492B07;
 				}
@@ -195,14 +234,14 @@ $small: 16px;
 				color: $fontColor;
 				text-align: left;
 				padding-left: 20%;
-				font-size: $large;
+				font-size: $one;
 			}
 			.bottom{
 				color: $fontColor;
 				font-family: raleway;
 				text-align: left;
 				text-indent: 60px;
-				font-size: $medium;
+				font-size: $four;
 				padding-top: 10px;
 				padding-left: 20%;
 				padding-right: 20%;
@@ -265,18 +304,18 @@ $small: 16px;
 					color: $fontColor;
 					text-align: left;
 					padding-left: 20%;
-					font-size: $large;
+					font-size: $one;
 				}
 				.bottom{
 					color: $fontColor;
 					font-family: raleway;
 					text-align: left;
-					font-size: $medium;
+					font-size: $four;
 					padding-left: 20%;
 					padding-right: 20%;
 					.mini{
 						margin-top: 5px;
-						font-size: $small;	
+						font-size: $six;
 					}
 				}
 			}
@@ -295,7 +334,7 @@ $small: 16px;
 			.top{
 				color: $fontColor;
 				text-align: center;
-				font-size: $large;
+				font-size: $one;
 				width: 100%;
 				float: left;
 			}
@@ -332,12 +371,12 @@ $small: 16px;
 							margin-right: 3%;
 							color: #cbcbcb;
 							.topText{
-								font-size: $mediumLarge;
+								font-size: $three;
 								text-align: center;
 							}
 							.bottomText{
 								text-indent: 10%;
-								font-size: $medium;
+								font-size: $four;
 							}
 						}
 					}
@@ -391,7 +430,7 @@ $small: 16px;
 				width: 100%;
 				color: $fontColor;
 				text-align: center;
-				font-size: $large;
+				font-size: $one;
 				display: block;
 			}
 			.bottom{
@@ -428,7 +467,7 @@ $small: 16px;
 			}
 			.pseudoFooter{
 				margin-top: 100px;
-				font-size: $mediumSmall;
+				font-size: $five;
 				color: #72ad76;
 				text-align: center;
 			}

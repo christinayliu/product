@@ -48,9 +48,28 @@ $(window).scroll(function () {
 				});
 			}
         }
-		else {
+		else if (imagePos < topOfWindow + imageHeight && imagePos + imageHeight > topOfWindow) {
             if(window.animationRan==true){
-				//reverse animation stuff here
+				//reverse animation stuff here if you want it to reverse
+				$("#lidRight").animateRotate(0, {
+				  duration: 0,
+				  easing: 'linear'
+				});
+
+				$("#lidLeft").animateRotate(0, {
+				  duration: 0,
+				  easing: 'linear'
+				});
+
+				$("#glow").animate({
+					top: "0px"
+				}, 0 );
+
+				$("#smallBox").animate({
+					top: "0px"
+				}, 0 );
+				window.animationRan = false;
+
 			}
         }
     });

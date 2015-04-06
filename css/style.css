@@ -29,16 +29,16 @@ html {
 ::-webkit-scrollbar-thumb:window-inactive {
   background: #939393; }
 
-/* line 37, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+/* line 80, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
 body {
   font-family: Lato;
   margin: 0px; }
 
-/* line 41, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+/* line 84, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
 a {
   text-decoration: none; }
 
-/* line 44, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+/* line 87, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
 .sidebar {
   background-color: rgba(255, 0, 0, 0);
   position: fixed;
@@ -46,7 +46,7 @@ a {
   height: 100%;
   display: none;
   padding-top: 12%; }
-  /* line 51, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+  /* line 94, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
   .sidebar .map {
     background-color: transparent;
     width: 100%;
@@ -54,11 +54,11 @@ a {
     border-radius: 30px;
     margin-left: 10px;
     margin-right: 10px; }
-    /* line 58, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+    /* line 101, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
     .sidebar .map .dotLink {
       width: 100%;
       float: left; }
-      /* line 61, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+      /* line 104, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
       .sidebar .map .dotLink .dot {
         width: 25px;
         height: 25px;
@@ -67,12 +67,12 @@ a {
         background-color: #bcbcbc;
         border: 5px solid #272727;
         display: inherit; }
-        /* line 70, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+        /* line 113, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
         .sidebar .map .dotLink .dot:hover {
           border: 5px solid #000000;
           background-color: white; }
 
-/* line 78, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+/* line 121, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
 .header {
   background-color: rgba(221, 135, 32, 0.51);
   height: inherit;
@@ -81,34 +81,30 @@ a {
   display: inline-block;
   padding-top: 20px;
   padding-bottom: 20px; }
-  /* line 86, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+  /* line 129, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
   .header .logo {
     float: left; }
-    /* line 88, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+    /* line 131, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
     .header .logo .logoImg {
       margin-left: 20px;
       margin-right: 20px;
       float: left; }
-    /* line 93, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
-    .header .logo img {
-      height: 100px; }
-  /* line 97, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+  /* line 140, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
   .header .logoName {
     font-size: 50px;
-    float: left;
+    float: right;
     font-family: raleway;
     font-weight: bolder;
-    line-height: 100px;
     color: #54340c; }
-  /* line 107, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+  /* line 149, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
   .header .link a {
-    font-size: 35px;
+    font-size: 30px;
     float: right;
     position: relative;
     margin-right: 30px;
     line-height: 80px;
-    margin-top: 10 -2.5px;
-    margin-bottom: 10 -2.5px;
+    margin-top: 8.5px;
+    margin-bottom: 8.5px;
     padding-left: 20px;
     padding-right: 20px;
     border-radius: 20px;
@@ -116,19 +112,19 @@ a {
     border: 2px solid #54340c;
     color: #58360c;
     display: block; }
-    /* line 123, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+    /* line 165, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
     .header .link a:hover {
       border: 2px solid white; }
 
-/* line 136, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+/* line 175, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
 .content {
   margin-top: -5px; }
-  /* line 138, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+  /* line 177, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
   .content .sectionNumber {
     width: 100%;
     display: inline-block;
     float: left; }
-    /* line 142, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+    /* line 181, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
     .content .sectionNumber .section {
       padding-left: 3%;
       padding-right: 3%;
@@ -138,23 +134,23 @@ a {
       padding-top: 70px;
       padding-bottom: 70px;
       display: inline-block; }
-  /* line 158, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+  /* line 197, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
   .content .section1 {
     background-color: rgba(255, 255, 255, 0.3); }
-    /* line 161, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+    /* line 200, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
     .content .section1 .section .left {
       width: 50%;
       float: left; }
-      /* line 164, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+      /* line 203, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
       .content .section1 .section .left img {
         width: 50%;
         float: right;
         margin-right: 30px; }
-    /* line 170, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+    /* line 209, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
     .content .section1 .section .right {
       width: 50%;
       float: left; }
-      /* line 173, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+      /* line 212, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
       .content .section1 .section .right .top {
         width: 100%;
         float: left;
@@ -162,22 +158,22 @@ a {
         font-size: 60px;
         font-family: raleway;
         color: #492B07; }
-      /* line 181, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+      /* line 220, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
       .content .section1 .section .right .bottom {
         width: 100%;
         font-size: 40px;
         float: left;
         color: #492B07; }
-  /* line 190, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+  /* line 229, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
   .content .section2 {
     background-color: rgba(28, 17, 167, 0.48); }
-    /* line 194, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+    /* line 233, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
     .content .section2 .section .top {
       color: #d9dfea;
       text-align: left;
       padding-left: 20%;
       font-size: 60px; }
-    /* line 200, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+    /* line 239, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
     .content .section2 .section .bottom {
       color: #d9dfea;
       font-family: raleway;
@@ -187,33 +183,33 @@ a {
       padding-top: 10px;
       padding-left: 20%;
       padding-right: 20%; }
-  /* line 212, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+  /* line 251, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
   .content .section3 {
     background-color: rgba(196, 196, 44, 0.24); }
-    /* line 216, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+    /* line 255, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
     .content .section3 .section .left {
       width: 50%;
       float: left;
       position: relative; }
-      /* line 220, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+      /* line 259, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
       .content .section3 .section .left .image {
         margin-top: 300px;
         width: 50%;
         float: right;
         margin-right: 30px;
         position: relative; }
-        /* line 226, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+        /* line 265, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
         .content .section3 .section .left .image .glow {
           z-index: -48;
           position: absolute; }
-        /* line 230, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+        /* line 269, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
         .content .section3 .section .left .image .smallBox {
           margin-left: 25%;
           margin-right: 25%;
           width: 50%;
           z-index: 49;
           position: absolute; }
-        /* line 237, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+        /* line 276, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
         .content .section3 .section .left .image .lidLeft {
           z-index: 51;
           width: 50%;
@@ -222,7 +218,7 @@ a {
           position: absolute;
           -webkit-transform-origin: center left;
           transform-origin: center left; }
-        /* line 246, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+        /* line 285, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
         .content .section3 .section .left .image .lidRight {
           z-index: 52;
           width: 50%;
@@ -231,21 +227,21 @@ a {
           position: absolute;
           -webkit-transform-origin: center right;
           transform-origin: center right; }
-        /* line 255, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+        /* line 294, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
         .content .section3 .section .left .image .bigBox {
           z-index: 55;
           position: absolute; }
-    /* line 261, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+    /* line 300, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
     .content .section3 .section .right {
       width: 50%;
       float: right; }
-      /* line 264, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+      /* line 303, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
       .content .section3 .section .right .top {
         color: #24261c;
         text-align: left;
         padding-left: 20%;
         font-size: 60px; }
-      /* line 270, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+      /* line 309, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
       .content .section3 .section .right .bottom {
         color: #24261c;
         font-family: raleway;
@@ -253,125 +249,125 @@ a {
         font-size: 30px;
         padding-left: 20%;
         padding-right: 20%; }
-        /* line 277, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+        /* line 316, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
         .content .section3 .section .right .bottom .mini {
           margin-top: 5px;
           font-size: 16px; }
-  /* line 285, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+  /* line 324, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
   .content .section4 {
     background-color: rgba(134, 21, 21, 0.48); }
-    /* line 291, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+    /* line 330, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
     .content .section4 .section {
       width: 100%;
       padding-left: 0%;
       padding-right: 0%; }
-      /* line 295, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+      /* line 334, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
       .content .section4 .section .top {
         color: #e3e3e3;
         text-align: center;
         font-size: 60px;
         width: 100%;
         float: left; }
-      /* line 302, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+      /* line 341, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
       .content .section4 .section .bottom {
         margin-top: 50px;
         font-family: raleway;
         color: #e3e3e3;
         width: 100%;
         float: left; }
-        /* line 308, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+        /* line 347, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
         .content .section4 .section .bottom .color1 {
           background-color: rgba(74, 15, 15, 0.2); }
-        /* line 311, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+        /* line 350, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
         .content .section4 .section .bottom .color2 {
           background-color: rgba(134, 21, 21, 0.2); }
-        /* line 314, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+        /* line 353, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
         .content .section4 .section .bottom .color3 {
           background-color: rgba(74, 15, 15, 0.2); }
-        /* line 317, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+        /* line 356, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
         .content .section4 .section .bottom .color {
           width: 100%;
           display: inline-block; }
-          /* line 320, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+          /* line 359, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
           .content .section4 .section .bottom .color .category {
             margin-top: 30px;
             margin-bottom: 30px; }
-            /* line 323, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+            /* line 362, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
             .content .section4 .section .bottom .color .category .image {
               margin-left: 3%;
               margin-right: 3%; }
-              /* line 326, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+              /* line 365, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
               .content .section4 .section .bottom .color .category .image img {
                 width: 100%; }
-            /* line 330, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+            /* line 369, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
             .content .section4 .section .bottom .color .category .text {
               margin-left: 3%;
               margin-right: 3%;
               color: #cbcbcb; }
-              /* line 334, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+              /* line 373, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
               .content .section4 .section .bottom .color .category .text .topText {
                 font-size: 40px;
                 text-align: center; }
-              /* line 338, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+              /* line 377, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
               .content .section4 .section .bottom .color .category .text .bottomText {
                 text-indent: 10%;
                 font-size: 30px; }
-          /* line 344, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+          /* line 383, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
           .content .section4 .section .bottom .color .first, .content .section4 .section .bottom .color .third {
             float: left; }
-            /* line 346, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+            /* line 385, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
             .content .section4 .section .bottom .color .first .image, .content .section4 .section .bottom .color .third .image {
               width: 30%;
               float: left;
               padding: 0%; }
-            /* line 351, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+            /* line 390, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
             .content .section4 .section .bottom .color .first .text, .content .section4 .section .bottom .color .third .text {
               text-align: left; }
-              /* line 353, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+              /* line 392, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
               .content .section4 .section .bottom .color .first .text .center, .content .section4 .section .bottom .color .third .text .center {
                 text-align: left; }
-              /* line 356, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+              /* line 395, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
               .content .section4 .section .bottom .color .first .text .bottomText, .content .section4 .section .bottom .color .third .text .bottomText {
                 text-indent: 10%;
                 text-align: left; }
-          /* line 362, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+          /* line 401, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
           .content .section4 .section .bottom .color .second {
             float: left; }
-            /* line 364, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+            /* line 403, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
             .content .section4 .section .bottom .color .second .image {
               width: 30%;
               float: right;
               padding: 0%; }
-            /* line 369, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+            /* line 408, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
             .content .section4 .section .bottom .color .second .text {
               text-align: left; }
-              /* line 371, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+              /* line 410, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
               .content .section4 .section .bottom .color .second .text .center {
                 text-align: left; }
-              /* line 374, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+              /* line 413, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
               .content .section4 .section .bottom .color .second .text .bottomText {
                 text-indent: 10%;
                 text-align: left; }
-  /* line 384, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+  /* line 423, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
   .content .section5 {
     background-color: rgba(14, 72, 4, 0.49); }
-    /* line 387, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+    /* line 426, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
     .content .section5 .section {
       margin-bottom: 0px;
       display: block; }
-      /* line 390, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+      /* line 429, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
       .content .section5 .section .top {
         width: 100%;
         color: #caf4c0;
         text-align: center;
         font-size: 60px;
         display: block; }
-      /* line 397, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+      /* line 436, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
       .content .section5 .section .bottom {
         text-align: center;
         width: 100%;
         margin-top: 30px; }
-        /* line 401, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+        /* line 440, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
         .content .section5 .section .bottom .link {
           border-left: 9px solid #0a450a;
           border-right: 9px solid #0a450a;
@@ -380,13 +376,13 @@ a {
           border-radius: 30px;
           display: inline-block;
           background-color: rgba(10, 126, 10, 0.29); }
-          /* line 412, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+          /* line 451, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
           .content .section5 .section .bottom .link:hover {
             border-left: 9px solid #051705;
             border-right: 9px solid #051705;
             border-top: 5px solid #051705;
             border-bottom: 5px solid #051705; }
-          /* line 418, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+          /* line 457, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
           .content .section5 .section .bottom .link a {
             background-color: rgba(10, 126, 10, 0.29);
             padding-left: 30px;
@@ -395,7 +391,7 @@ a {
             color: #caf4c0;
             border-radius: 20px;
             font-family: raleway; }
-      /* line 429, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+      /* line 468, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
       .content .section5 .section .pseudoFooter {
         margin-top: 100px;
         font-size: 20px;
