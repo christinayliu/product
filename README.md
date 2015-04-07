@@ -12,6 +12,8 @@ If you're not comfortable using SASS, you can paste the .css file's contents int
 The website is viewable at <a href="http://cyrusroshan.me/product">cyrusroshan.me/product</a>
 
 The low poly background image was made with the help of <a href="https://github.com/qrohlf/trianglify">trianglify</a>.
+
+Download v1.0 <a href="https://github.com/CyrusRoshan/product/archive/v1.0.zip">here</a>.
 ___
 #License:
 
