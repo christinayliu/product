@@ -101,13 +101,29 @@ $(window).load(function() {
 	//this generally helps the look of certain elements:
 	$("#actualImage").css("width", ($(".header").width()*10/100));
 
-	$("#headerLink").css("margin-top", ($("#header").height() - $("#headerLink").height() - 5)/3);
-	$("#headerLink").css("margin-bottom", ($("#header").height() - $("#headerLink").height() - 5)/3);
-	$("#headerLink").css("padding-top", ($("#header").height() - $("#headerLink").height() - 5)/3/2);
-	$("#headerLink").css("padding-bottom", ($("#header").height() - $("#headerLink").height() - 5)/3/2);
-
+	if($("html").width() < 420){
+		window.headerHeight = .5;	
+	}
+	else{
+		window.headerHeight = 1;	
+	}
+	
 	$(".logoName").css("margin-top", ($("#header").height() - $(".logoName").height())/2);
 	$(".logoName").css("margin-bottom", ($("#header").height() - $(".logoName").height())/2);
+	
+	var temp1 = $("#header").height();
+	var temp2 = parseInt($("#headerLink").css("line-height"));
+	var temp3 = $(".logo").height()
+	
+	$("#headerLink").css("margin-top", (temp3-temp2)/2/3*2+(temp1-temp3)/2);
+	$("#headerLink").css("margin-bottom", (temp3-temp2)/2/3*2+(temp1-temp3)/2);
+	
+	$("#headerLink").css("padding-top", (temp3-temp2)/2/3);
+	$("#headerLink").css("padding-bottom", (temp3-temp2)/2/3);
+	$("#headerLink").css("padding-left", (temp3-temp2)/2/3);
+	$("#headerLink").css("padding-right", (temp3-temp2)/2/3);
+
+	
 
 	$("#actualImage").css("height", ($(".logo").height()));
 	$("#actualImage").css("width", ($(".logo").height()));
