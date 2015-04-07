@@ -1,7 +1,3 @@
-//Disregard these notes
-//950px works but change section2 padding/margin stuff
-//TODO:
-//1) mobile optimization
 
 html{
 	background: url(../images/background.svg) no-repeat center center fixed; 
@@ -47,12 +43,13 @@ $sixA: 45px;
 $breakB: 2000px;
 $oneB: 120px;
 $twoB: 80px;
-$threeB: 40px;
-$fourB: 30px;
-$fiveB: 20px;
-$sixB: 16px;
+$threeB: 65px;
+$fourB: 50px;
+$fiveB: 45px;
+$sixB: 30px;
 
-//
+//1500px wide;
+$breakC: 1500px;
 $oneC: 60px;
 $twoC: 50px;
 $threeC: 40px;
@@ -60,7 +57,9 @@ $fourC: 30px;
 $fiveC: 20px;
 $sixC: 16px;
 
-//
+//414 px wide (iphone 6 plus);
+//TODO: change this too:
+$breakD: 414px;
 $oneD: 60px;
 $twoD: 50px;
 $threeD: 40px;
@@ -68,12 +67,72 @@ $fourD: 30px;
 $fiveD: 20px;
 $sixD: 16px;
 
-$one: 60px;
-$two: 50px;
-$three: 40px;
-$four: 30px;
-$five: 20px;
-$six: 16px;
+/*
+add under breakD, then test out font sizes
+
+add to section 1
+
+@media (max-device-width: 414px) {
+	.left img {
+		width: 90%;
+	}
+}
+
+//////////
+
+add to section 2
+
+@media (max-device-width: 414px) {
+	.bottom{
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+}
+
+//////////
+
+add to section 3
+
+@media (max-device-width: 414px) {
+	.left{
+		width: 70%;
+	}
+}
+
+@media (max-device-width: 414px) {
+	.right{
+		width: 100%;
+		float: left;
+		margin-top: 17%;
+	}
+}
+
+//////////
+
+
+add to section 4 images
+
+@media (max-device-width: 414px) {
+	.img {
+		width: 75%;
+		margin-left: 12.5%;
+		margin-right: 12.5%;
+		margin-bottom: 5%;
+	}
+}
+
+
+*/
+
+//320 px wide (iphone 5/4);
+//TODO change this too:
+$breakE: 320px;
+$oneE: 60px;
+$twoE: 50px;
+$threeE: 40px;
+$fourE: 30px;
+$fiveE: 20px;
+$sixE: 16px;
 //SASS won't support defining variables inside of @media queries :/
 
 
