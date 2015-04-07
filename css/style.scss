@@ -6,29 +6,32 @@ html{
 	-o-background-size: cover;
 	background-size: cover;
 }
-////custom scrollbar
-::-webkit-scrollbar {
-    width: 1em;
-	background-color: rgb(230, 230, 230);
-}
 
-::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
-    -webkit-border-radius: 10px;
-    border-radius: 0;
-	background-color: rgba(209, 144, 65, 0);//0 opacity so it doesn't matter anyway.
-}
+@media screen and (min-device-width: 1200px) {
+	////custom scrollbar
+	::-webkit-scrollbar {
+		width: 1em;
+		background-color: rgb(230, 230, 230);
+	}
 
-::-webkit-scrollbar-thumb {
-    -webkit-border-radius: 10px;
-    border-radius: .25em;
-    background: rgb(221, 135, 32); 
-    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.5); 
+	::-webkit-scrollbar-track {
+		-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+		-webkit-border-radius: 10px;
+		border-radius: 0;
+		background-color: rgba(209, 144, 65, 0);//0 opacity so it doesn't matter anyway.
+	}
+
+	::-webkit-scrollbar-thumb {
+		-webkit-border-radius: 10px;
+		border-radius: .25em;
+		background: rgb(221, 135, 32); 
+		-webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.5); 
+	}
+	::-webkit-scrollbar-thumb:window-inactive {
+		background: rgb(147, 147, 147); 
+	}
+	////
 }
-::-webkit-scrollbar-thumb:window-inactive {
-	background: rgb(147, 147, 147); 
-}
-////
 
 //3000 px wide
 $breakA: 3000px;
@@ -68,58 +71,8 @@ $fiveD: 20px;
 $sixD: 16px;
 
 /*
-add under breakD, then test out font sizes
 
-add to section 1
-
-@media (max-device-width: 414px) {
-	.left img {
-		width: 90%;
-	}
-}
-
-//////////
-
-add to section 2
-
-@media (max-device-width: 414px) {
-	.bottom{
-		padding-left: 10%;
-		padding-right: 10%;
-	}
-}
-
-//////////
-
-add to section 3
-
-@media (max-device-width: 414px) {
-	.left{
-		width: 70%;
-	}
-}
-
-@media (max-device-width: 414px) {
-	.right{
-		width: 100%;
-		float: left;
-		margin-top: 17%;
-	}
-}
-
-//////////
-
-
-add to section 4 images
-
-@media (max-device-width: 414px) {
-	.img {
-		width: 75%;
-		margin-left: 12.5%;
-		margin-right: 12.5%;
-		margin-bottom: 5%;
-	}
-}
+TODO: stuff added, check new font sizes
 
 
 */
@@ -264,6 +217,11 @@ a{
 					float: right;
 					margin-right: 30px;
 				}
+				@media (max-device-width: 414px) {
+					img {
+						width: 90%;
+					}
+				}
 			}
 			.right{
 				width: 50%;
@@ -304,6 +262,12 @@ a{
 				padding-top: 10px;
 				padding-left: 20%;
 				padding-right: 20%;
+			}
+			@media (max-device-width: 414px) {
+				.bottom{
+					padding-left: 10%;
+					padding-right: 10%;
+				}
 			}
 		}
 	}
@@ -356,6 +320,13 @@ a{
 					}
 				}
 			}
+			
+			@media (max-device-width: 414px) {
+				.left{
+					width: 100%;
+					margin-left: -21.7%;
+				}
+			}
 			.right{
 				width: 50%;
 				float: right;
@@ -375,6 +346,22 @@ a{
 					.mini{
 						margin-top: 5px;
 						font-size: $sixC;
+					}
+				}
+			}
+			@media (max-device-width: 414px) {
+				.right{
+					width: 80%;
+					float: left;
+					margin-top: 17%;
+					margin-left: 10%;
+					margin-right: 10%;
+					.top{
+						text-align: center;
+						padding-left: 0;
+					}
+					.bottom{
+						padding: 0;
 					}
 				}
 			}
@@ -416,6 +403,7 @@ a{
 					width: 100%;
 					display: inline-block;
 					.category{
+						float: left;
 						margin-top: 30px;
 						margin-bottom: 30px;
 						.image{
@@ -425,54 +413,42 @@ a{
 								width: 100%;
 							}
 						}
+						@media (max-device-width: 414px) {
+							.image {
+								width: 60%;
+								margin-left: 20%;
+								margin-right: 20%;
+								margin-bottom: 5%;
+								margin-top: 5%;
+							}
+						}
 						.text{
 							margin-left: 3%;
 							margin-right: 3%;
 							color: #cbcbcb;
+							text-align: left;
 							.topText{
 								font-size: $threeC;
 								text-align: center;
 							}
+							.center{
+								text-align: left;	
+							}
 							.bottomText{
 								text-indent: 10%;
 								font-size: $fourC;
+								text-align: left;
 							}
 						}
 					}
-					.first, .third{
-						float: left;
+					.first, .third{ //you can add .odd to your odd elements and here if you're using more than 3 elements with an alternating color scheme
 						.image{
-							width: 30%;
 							float: left;
-							padding: 0%;
-						}
-						.text{
-							text-align: left;
-							.center{
-								text-align: left;	
-							}
-							.bottomText{
-								text-indent: 10%;
-								text-align: left;	
-							}
 						}
 					}
-					.second{
-						float: left;
+					.second{ //same as above comment but add .even
 						.image{
-							width: 30%;
 							float: right;
-							padding: 0%;
-						}
-						.text{
-							text-align: left;
-							.center{
-								text-align: left;	
-							}
-							.bottomText{
-								text-indent: 10%;
-								text-align: left;	
-							}
 						}
 					}
 				}
