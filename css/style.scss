@@ -197,7 +197,7 @@ a{
 			}
 		}
 		.logoName {
-			font-size: $two;
+			font-size: $twoC;
 			float: right;
 			font-family: raleway;
 			font-weight: bolder;
@@ -206,7 +206,7 @@ a{
 		}
 	.link {
 		a{
-			font-size: $four;
+			font-size: $fourC;
 			float: right;
 			position: relative;
 			margin-right: 30px;
@@ -272,13 +272,13 @@ a{
 					width: 100%;
 					float: left;
 					font-weight: bold;
-					font-size: $one;
+					font-size: $oneC;
 					font-family: raleway;
 					color: #492B07;
 				}
 				.bottom{
 					width: 100%;
-					font-size: $three;
+					font-size: $threeC;
 					float: left;
 					color: #492B07;
 				}
@@ -293,14 +293,14 @@ a{
 				color: $fontColor;
 				text-align: left;
 				padding-left: 20%;
-				font-size: $one;
+				font-size: $oneC;
 			}
 			.bottom{
 				color: $fontColor;
 				font-family: raleway;
 				text-align: left;
 				text-indent: 60px;
-				font-size: $four;
+				font-size: $fourC;
 				padding-top: 10px;
 				padding-left: 20%;
 				padding-right: 20%;
@@ -363,18 +363,18 @@ a{
 					color: $fontColor;
 					text-align: left;
 					padding-left: 20%;
-					font-size: $one;
+					font-size: $oneC;
 				}
 				.bottom{
 					color: $fontColor;
 					font-family: raleway;
 					text-align: left;
-					font-size: $four;
+					font-size: $fourC;
 					padding-left: 20%;
 					padding-right: 20%;
 					.mini{
 						margin-top: 5px;
-						font-size: $six;
+						font-size: $sixC;
 					}
 				}
 			}
@@ -393,7 +393,7 @@ a{
 			.top{
 				color: $fontColor;
 				text-align: center;
-				font-size: $one;
+				font-size: $oneC;
 				width: 100%;
 				float: left;
 			}
@@ -430,12 +430,12 @@ a{
 							margin-right: 3%;
 							color: #cbcbcb;
 							.topText{
-								font-size: $three;
+								font-size: $threeC;
 								text-align: center;
 							}
 							.bottomText{
 								text-indent: 10%;
-								font-size: $four;
+								font-size: $fourC;
 							}
 						}
 					}
@@ -489,7 +489,7 @@ a{
 				width: 100%;
 				color: $fontColor;
 				text-align: center;
-				font-size: $one;
+				font-size: $oneC;
 				display: block;
 			}
 			.bottom{
@@ -526,7 +526,7 @@ a{
 			}
 			.pseudoFooter{
 				margin-top: 100px;
-				font-size: $five;
+				font-size: $fiveC;
 				color: #72ad76;
 				text-align: center;
 			}
