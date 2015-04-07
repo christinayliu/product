@@ -33,8 +33,8 @@ html{
 	////
 }
 
-//3000 px wide
-$breakA: 3000px;
+//since I'm using min-width it's 2000+ px wide
+$breakA: 2000px;
 $oneA: 170px;
 $twoA: 100px;
 $threeA: 90px;
@@ -42,7 +42,8 @@ $fourA: 70px; //Line height 140px
 $fiveA: 20px;
 $sixA: 45px;
 
-//2000 px wide
+
+// < 2000 px wide
 $breakB: 2000px;
 $oneB: 120px;
 $twoB: 80px;
@@ -51,7 +52,8 @@ $fourB: 50px;
 $fiveB: 45px;
 $sixB: 30px;
 
-//1500px wide;
+
+// < 1500px wide;
 $breakC: 1500px;
 $oneC: 60px;
 $twoC: 50px;
@@ -60,33 +62,49 @@ $fourC: 30px;
 $fiveC: 20px;
 $sixC: 16px;
 
-//414 px wide (iphone 6 plus);
+
+// < 414 px wide (iphone 6 plus);
 //TODO: change this too:
 $breakD: 414px;
-$oneD: 60px;
-$twoD: 50px;
-$threeD: 40px;
-$fourD: 30px;
-$fiveD: 20px;
-$sixD: 16px;
+$oneD: 110px;
+$twoD: 90px;
+$threeD: 60px;
+$fourD: 55px;
+$fiveD: 55px;
+$sixD: 35px;
+
+
+// < 320 px wide (iphone 5/4);
+//TODO change this too:
+$breakE: 320px;
+$oneE: 110px;
+$twoE: 90px;
+$threeE: 50px;
+$fourE: 40px;
+$fiveE: 55px;
+$sixE: 25px;
 
 /*
 
-TODO: stuff added, check new font sizes
-
-
+@media screen and (min-width: $breakA){
+	font-size: $A;
+}
+@media screen and (max-width: $breakB){
+	font-size: $B;
+}
+@media screen and (max-width: $breakC){
+	font-size: $C;
+}
+@media (max-device-width: $breakD){
+	font-size: $D;
+}
+@media (max-device-width: $breakE){
+	font-size: $E;
+}
 */
 
-//320 px wide (iphone 5/4);
-//TODO change this too:
-$breakE: 320px;
-$oneE: 60px;
-$twoE: 50px;
-$threeE: 40px;
-$fourE: 30px;
-$fiveE: 20px;
-$sixE: 16px;
-//SASS won't support defining variables inside of @media queries :/
+
+//SASS won't support defining variables inside of @media queries, so you have to use lots of @media queries later on in the .scss file :/
 
 
 body{
@@ -156,6 +174,21 @@ a{
 			font-weight: bolder;
 			color: rgb(84, 52, 12);
 			//todo: jquery to vertically center
+			@media screen and (min-width: $breakA){
+				font-size: $twoA;
+			}
+			@media screen and (max-width: $breakB){
+				font-size: $twoB;
+			}
+			@media screen and (max-width: $breakC){
+				font-size: $twoC;
+			}
+			@media (max-device-width: $breakD){
+				font-size: $twoD;
+			}
+			@media (max-device-width: $breakE){
+				font-size: $twoE;
+			}
 		}
 	.link {
 		a{
@@ -176,6 +209,21 @@ a{
 			display: block;
 			&:hover{
 				border: 2px solid white	
+			}
+			@media screen and (min-width: $breakA){
+				font-size: $fourA;
+			}
+			@media screen and (max-width: $breakB){
+				font-size: $fourB;
+			}
+			@media screen and (max-width: $breakC){
+				font-size: $fourC;
+			}
+			@media (max-device-width: $breakD){
+				font-size: $fourD;
+			}
+			@media (max-device-width: $breakE){
+				font-size: $fourE;
 			}
 		}
 	}
@@ -233,12 +281,42 @@ a{
 					font-size: $oneC;
 					font-family: raleway;
 					color: #492B07;
+					@media screen and (min-width: $breakA){
+						font-size: $oneA;
+					}
+					@media screen and (max-width: $breakB){
+						font-size: $oneB;
+					}
+					@media screen and (max-width: $breakC){
+						font-size: $oneC;
+					}
+					@media (max-device-width: $breakD){
+						font-size: $oneD;
+					}
+					@media (max-device-width: $breakE){
+						font-size: $oneE;
+					}
 				}
 				.bottom{
 					width: 100%;
 					font-size: $threeC;
 					float: left;
 					color: #492B07;
+					@media screen and (min-width: $breakA){
+						font-size: $threeA;
+					}
+					@media screen and (max-width: $breakB){
+						font-size: $threeB;
+					}
+					@media screen and (max-width: $breakC){
+						font-size: $threeC;
+					}
+					@media (max-device-width: $breakD){
+						font-size: $threeD;
+					}
+					@media (max-device-width: $breakE){
+						font-size: $threeE;
+					}
 				}
 			}
 		}
@@ -252,6 +330,21 @@ a{
 				text-align: left;
 				padding-left: 20%;
 				font-size: $oneC;
+				@media screen and (min-width: $breakA){
+					font-size: $oneA;
+				}
+				@media screen and (max-width: $breakB){
+					font-size: $oneB;
+				}
+				@media screen and (max-width: $breakC){
+					font-size: $oneC;
+				}
+				@media (max-device-width: $breakD){
+					font-size: $oneD;
+				}
+				@media (max-device-width: $breakE){
+					font-size: $oneE;
+				}
 			}
 			.bottom{
 				color: $fontColor;
@@ -262,6 +355,21 @@ a{
 				padding-top: 10px;
 				padding-left: 20%;
 				padding-right: 20%;
+				@media screen and (min-width: $breakA){
+					font-size: $fourA;
+				}
+				@media screen and (max-width: $breakB){
+					font-size: $fourB;
+				}
+				@media screen and (max-width: $breakC){
+					font-size: $fourC;
+				}
+				@media (max-device-width: $breakD){
+					font-size: $fourD;
+				}
+				@media (max-device-width: $breakE){
+					font-size: $fourE;
+				}
 			}
 			@media (max-device-width: 414px) {
 				.bottom{
@@ -335,6 +443,21 @@ a{
 					text-align: left;
 					padding-left: 20%;
 					font-size: $oneC;
+					@media screen and (min-width: $breakA){
+						font-size: $oneA;
+					}
+					@media screen and (max-width: $breakB){
+						font-size: $oneB;
+					}
+					@media screen and (max-width: $breakC){
+						font-size: $oneC;
+					}
+					@media (max-device-width: $breakD){
+						font-size: $oneD;
+					}
+					@media (max-device-width: $breakE){
+						font-size: $oneE;
+					}
 				}
 				.bottom{
 					color: $fontColor;
@@ -346,6 +469,36 @@ a{
 					.mini{
 						margin-top: 5px;
 						font-size: $sixC;
+						@media screen and (min-width: $breakA){
+							font-size: $sixA;
+						}
+						@media screen and (max-width: $breakB){
+							font-size: $sixB;
+						}
+						@media screen and (max-width: $breakC){
+							font-size: $sixC;
+						}
+						@media (max-device-width: $breakD){
+							font-size: $sixD;
+						}
+						@media (max-device-width: $breakE){
+							font-size: $sixE;
+						}
+					}
+					@media screen and (min-width: $breakA){
+						font-size: $fourA;
+					}
+					@media screen and (max-width: $breakB){
+						font-size: $fourB;
+					}
+					@media screen and (max-width: $breakC){
+						font-size: $fourC;
+					}
+					@media (max-device-width: $breakD){
+						font-size: $fourD;
+					}
+					@media (max-device-width: $breakE){
+						font-size: $fourE;
 					}
 				}
 			}
@@ -383,6 +536,21 @@ a{
 				font-size: $oneC;
 				width: 100%;
 				float: left;
+				@media screen and (min-width: $breakA){
+					font-size: $oneA;
+				}
+				@media screen and (max-width: $breakB){
+					font-size: $oneB;
+				}
+				@media screen and (max-width: $breakC){
+					font-size: $oneC;
+				}
+				@media (max-device-width: $breakD){
+					font-size: $oneD;
+				}
+				@media (max-device-width: $breakE){
+					font-size: $oneE;
+				}
 			}
 			.bottom{
 				margin-top: 50px;
@@ -409,6 +577,7 @@ a{
 						.image{
 							margin-left: 3%;
 							margin-right: 3%;
+							width: 25%;
 							img{
 								width: 100%;
 							}
@@ -430,6 +599,21 @@ a{
 							.topText{
 								font-size: $threeC;
 								text-align: center;
+								@media screen and (min-width: $breakA){
+									font-size: $threeA;
+								}
+								@media screen and (max-width: $breakB){
+									font-size: $threeB;
+								}
+								@media screen and (max-width: $breakC){
+									font-size: $threeC;
+								}
+								@media (max-device-width: $breakD){
+									font-size: $threeD;
+								}
+								@media (max-device-width: $breakE){
+									font-size: $threeE;
+								}
 							}
 							.center{
 								text-align: left;	
@@ -438,6 +622,21 @@ a{
 								text-indent: 10%;
 								font-size: $fourC;
 								text-align: left;
+								@media screen and (min-width: $breakA){
+									font-size: $fourA;
+								}
+								@media screen and (max-width: $breakB){
+									font-size: $fourB;
+								}
+								@media screen and (max-width: $breakC){
+									font-size: $fourC;
+								}
+								@media (max-device-width: $breakD){
+									font-size: $fourD;
+								}
+								@media (max-device-width: $breakE){
+									font-size: $fourE;
+								}
 							}
 						}
 					}
@@ -467,6 +666,21 @@ a{
 				text-align: center;
 				font-size: $oneC;
 				display: block;
+				@media screen and (min-width: $breakA){
+					font-size: $oneA;
+				}
+				@media screen and (max-width: $breakB){
+					font-size: $oneB;
+				}
+				@media screen and (max-width: $breakC){
+					font-size: $oneC;
+				}
+				@media (max-device-width: $breakD){
+					font-size: $oneD;
+				}
+				@media (max-device-width: $breakE){
+					font-size: $oneE;
+				}
 			}
 			.bottom{
 				text-align: center;
@@ -493,10 +707,25 @@ a{
 						background-color: $backgroundColor;
 						padding-left: 30px;
 						padding-right: 30px;
-						font-size: 50px;
+						font-size: $twoC;
 						color: $fontColor;
 						border-radius: 20px;
 						font-family: raleway;
+						@media screen and (min-width: $breakA){
+							font-size: $twoA;
+						}
+						@media screen and (max-width: $breakB){
+							font-size: $twoB;
+						}
+						@media screen and (max-width: $breakC){
+							font-size: $twoC;
+						}
+						@media (max-device-width: $breakD){
+							font-size: $twoD;
+						}
+						@media (max-device-width: $breakE){
+							font-size: $twoE;
+						}
 					}
 				}
 			}
@@ -505,6 +734,21 @@ a{
 				font-size: $fiveC;
 				color: #72ad76;
 				text-align: center;
+				@media screen and (min-width: $breakA){
+					font-size: $fiveA;
+				}
+				@media screen and (max-width: $breakB){
+					font-size: $fiveB;
+				}
+				@media screen and (max-width: $breakC){
+					font-size: $fiveC;
+				}
+				@media (max-device-width: $breakD){
+					font-size: $fiveD;
+				}
+				@media (max-device-width: $breakE){
+					font-size: $fiveE;
+				}
 			}
 		}	
 	}

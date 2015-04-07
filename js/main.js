@@ -128,7 +128,7 @@ $(window).load(function() {
 	$("#actualImage").css("height", ($(".logo").height()));
 	$("#actualImage").css("width", ($(".logo").height()));
 
-	$("#changeDate").html("Coming " + tomorrow);
+	//$("#changeDate").html("Coming " + tomorrow);
 
 	$("#firstText").css('margin-top', ($("#first").height() - $("#firstText").height()) / 2);
 	$("#secondText").css('margin-top', ($("#second").height() - $("#secondText").height()) / 2);

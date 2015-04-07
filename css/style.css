@@ -29,20 +29,32 @@ html {
 
 /*
 
-TODO: stuff added, check new font sizes
-
-
+@media screen and (min-width: $breakA){
+	font-size: $A;
+}
+@media screen and (max-width: $breakB){
+	font-size: $B;
+}
+@media screen and (max-width: $breakC){
+	font-size: $C;
+}
+@media (max-device-width: $breakD){
+	font-size: $D;
+}
+@media (max-device-width: $breakE){
+	font-size: $E;
+}
 */
-/* line 92, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+/* line 110, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
 body {
   font-family: Lato;
   margin: 0px; }
 
-/* line 96, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+/* line 114, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
 a {
   text-decoration: none; }
 
-/* line 99, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+/* line 117, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
 .sidebar {
   background-color: rgba(255, 0, 0, 0);
   position: fixed;
@@ -50,7 +62,7 @@ a {
   height: 100%;
   display: none;
   padding-top: 12%; }
-  /* line 106, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+  /* line 124, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
   .sidebar .map {
     background-color: transparent;
     width: 100%;
@@ -58,11 +70,11 @@ a {
     border-radius: 30px;
     margin-left: 10px;
     margin-right: 10px; }
-    /* line 113, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+    /* line 131, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
     .sidebar .map .dotLink {
       width: 100%;
       float: left; }
-      /* line 116, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+      /* line 134, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
       .sidebar .map .dotLink .dot {
         width: 25px;
         height: 25px;
@@ -71,12 +83,12 @@ a {
         background-color: #bcbcbc;
         border: 5px solid #272727;
         display: inherit; }
-        /* line 125, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+        /* line 143, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
         .sidebar .map .dotLink .dot:hover {
           border: 5px solid #000000;
           background-color: white; }
 
-/* line 133, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+/* line 151, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
 .header {
   background-color: rgba(221, 135, 32, 0.51);
   height: inherit;
@@ -85,22 +97,37 @@ a {
   display: inline-block;
   padding-top: 20px;
   padding-bottom: 20px; }
-  /* line 141, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+  /* line 159, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
   .header .logo {
     float: left; }
-    /* line 143, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+    /* line 161, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
     .header .logo .logoImg {
       margin-left: 20px;
       margin-right: 20px;
       float: left; }
-  /* line 152, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+  /* line 170, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
   .header .logoName {
     font-size: 50px;
     float: right;
     font-family: raleway;
     font-weight: bolder;
     color: #54340c; }
-  /* line 161, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+    @media screen and (min-width: 2000px) {
+      .header .logoName {
+        font-size: 100px; } }
+    @media screen and (max-width: 2000px) {
+      .header .logoName {
+        font-size: 80px; } }
+    @media screen and (max-width: 1500px) {
+      .header .logoName {
+        font-size: 50px; } }
+    @media (max-device-width: 414px) {
+      .header .logoName {
+        font-size: 90px; } }
+    @media (max-device-width: 320px) {
+      .header .logoName {
+        font-size: 90px; } }
+  /* line 194, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
   .header .link a {
     font-size: 30px;
     float: right;
@@ -116,19 +143,34 @@ a {
     border: 2px solid #54340c;
     color: #58360c;
     display: block; }
-    /* line 177, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+    /* line 210, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
     .header .link a:hover {
       border: 2px solid white; }
+    @media screen and (min-width: 2000px) {
+      .header .link a {
+        font-size: 70px; } }
+    @media screen and (max-width: 2000px) {
+      .header .link a {
+        font-size: 50px; } }
+    @media screen and (max-width: 1500px) {
+      .header .link a {
+        font-size: 30px; } }
+    @media (max-device-width: 414px) {
+      .header .link a {
+        font-size: 55px; } }
+    @media (max-device-width: 320px) {
+      .header .link a {
+        font-size: 40px; } }
 
-/* line 187, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+/* line 235, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
 .content {
   margin-top: -5px; }
-  /* line 189, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+  /* line 237, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
   .content .sectionNumber {
     width: 100%;
     display: inline-block;
     float: left; }
-    /* line 193, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+    /* line 241, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
     .content .sectionNumber .section {
       padding-left: 3%;
       padding-right: 3%;
@@ -138,27 +180,27 @@ a {
       padding-top: 70px;
       padding-bottom: 70px;
       display: inline-block; }
-  /* line 209, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+  /* line 257, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
   .content .section1 {
     background-color: rgba(255, 255, 255, 0.3); }
-    /* line 212, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+    /* line 260, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
     .content .section1 .section .left {
       width: 50%;
       float: left; }
-      /* line 215, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+      /* line 263, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
       .content .section1 .section .left img {
         width: 50%;
         float: right;
         margin-right: 30px; }
       @media (max-device-width: 414px) {
-        /* line 221, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+        /* line 269, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
         .content .section1 .section .left img {
           width: 90%; } }
-    /* line 226, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+    /* line 274, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
     .content .section1 .section .right {
       width: 50%;
       float: left; }
-      /* line 229, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+      /* line 277, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
       .content .section1 .section .right .top {
         width: 100%;
         float: left;
@@ -166,22 +208,67 @@ a {
         font-size: 60px;
         font-family: raleway;
         color: #492B07; }
-      /* line 237, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+        @media screen and (min-width: 2000px) {
+          .content .section1 .section .right .top {
+            font-size: 170px; } }
+        @media screen and (max-width: 2000px) {
+          .content .section1 .section .right .top {
+            font-size: 120px; } }
+        @media screen and (max-width: 1500px) {
+          .content .section1 .section .right .top {
+            font-size: 60px; } }
+        @media (max-device-width: 414px) {
+          .content .section1 .section .right .top {
+            font-size: 110px; } }
+        @media (max-device-width: 320px) {
+          .content .section1 .section .right .top {
+            font-size: 110px; } }
+      /* line 300, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
       .content .section1 .section .right .bottom {
         width: 100%;
         font-size: 40px;
         float: left;
         color: #492B07; }
-  /* line 246, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+        @media screen and (min-width: 2000px) {
+          .content .section1 .section .right .bottom {
+            font-size: 90px; } }
+        @media screen and (max-width: 2000px) {
+          .content .section1 .section .right .bottom {
+            font-size: 65px; } }
+        @media screen and (max-width: 1500px) {
+          .content .section1 .section .right .bottom {
+            font-size: 40px; } }
+        @media (max-device-width: 414px) {
+          .content .section1 .section .right .bottom {
+            font-size: 60px; } }
+        @media (max-device-width: 320px) {
+          .content .section1 .section .right .bottom {
+            font-size: 50px; } }
+  /* line 324, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
   .content .section2 {
     background-color: rgba(28, 17, 167, 0.48); }
-    /* line 250, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+    /* line 328, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
     .content .section2 .section .top {
       color: #d9dfea;
       text-align: left;
       padding-left: 20%;
       font-size: 60px; }
-    /* line 256, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+      @media screen and (min-width: 2000px) {
+        .content .section2 .section .top {
+          font-size: 170px; } }
+      @media screen and (max-width: 2000px) {
+        .content .section2 .section .top {
+          font-size: 120px; } }
+      @media screen and (max-width: 1500px) {
+        .content .section2 .section .top {
+          font-size: 60px; } }
+      @media (max-device-width: 414px) {
+        .content .section2 .section .top {
+          font-size: 110px; } }
+      @media (max-device-width: 320px) {
+        .content .section2 .section .top {
+          font-size: 110px; } }
+    /* line 349, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
     .content .section2 .section .bottom {
       color: #d9dfea;
       font-family: raleway;
@@ -191,38 +278,53 @@ a {
       padding-top: 10px;
       padding-left: 20%;
       padding-right: 20%; }
+      @media screen and (min-width: 2000px) {
+        .content .section2 .section .bottom {
+          font-size: 70px; } }
+      @media screen and (max-width: 2000px) {
+        .content .section2 .section .bottom {
+          font-size: 50px; } }
+      @media screen and (max-width: 1500px) {
+        .content .section2 .section .bottom {
+          font-size: 30px; } }
+      @media (max-device-width: 414px) {
+        .content .section2 .section .bottom {
+          font-size: 55px; } }
+      @media (max-device-width: 320px) {
+        .content .section2 .section .bottom {
+          font-size: 40px; } }
     @media (max-device-width: 414px) {
-      /* line 267, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+      /* line 375, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
       .content .section2 .section .bottom {
         padding-left: 10%;
         padding-right: 10%; } }
-  /* line 274, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+  /* line 382, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
   .content .section3 {
     background-color: rgba(196, 196, 44, 0.24); }
-    /* line 278, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+    /* line 386, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
     .content .section3 .section .left {
       width: 50%;
       float: left;
       position: relative; }
-      /* line 282, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+      /* line 390, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
       .content .section3 .section .left .image {
         margin-top: 300px;
         width: 50%;
         float: right;
         margin-right: 30px;
         position: relative; }
-        /* line 288, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+        /* line 396, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
         .content .section3 .section .left .image .glow {
           z-index: -48;
           position: absolute; }
-        /* line 292, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+        /* line 400, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
         .content .section3 .section .left .image .smallBox {
           margin-left: 25%;
           margin-right: 25%;
           width: 50%;
           z-index: 49;
           position: absolute; }
-        /* line 299, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+        /* line 407, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
         .content .section3 .section .left .image .lidLeft {
           z-index: 51;
           width: 50%;
@@ -231,7 +333,7 @@ a {
           position: absolute;
           -webkit-transform-origin: center left;
           transform-origin: center left; }
-        /* line 308, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+        /* line 416, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
         .content .section3 .section .left .image .lidRight {
           z-index: 52;
           width: 50%;
@@ -240,26 +342,41 @@ a {
           position: absolute;
           -webkit-transform-origin: center right;
           transform-origin: center right; }
-        /* line 317, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+        /* line 425, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
         .content .section3 .section .left .image .bigBox {
           z-index: 55;
           position: absolute; }
     @media (max-device-width: 414px) {
-      /* line 325, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+      /* line 433, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
       .content .section3 .section .left {
         width: 100%;
         margin-left: -21.7%; } }
-    /* line 330, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+    /* line 438, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
     .content .section3 .section .right {
       width: 50%;
       float: right; }
-      /* line 333, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+      /* line 441, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
       .content .section3 .section .right .top {
         color: #24261c;
         text-align: left;
         padding-left: 20%;
         font-size: 60px; }
-      /* line 339, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+        @media screen and (min-width: 2000px) {
+          .content .section3 .section .right .top {
+            font-size: 170px; } }
+        @media screen and (max-width: 2000px) {
+          .content .section3 .section .right .top {
+            font-size: 120px; } }
+        @media screen and (max-width: 1500px) {
+          .content .section3 .section .right .top {
+            font-size: 60px; } }
+        @media (max-device-width: 414px) {
+          .content .section3 .section .right .top {
+            font-size: 110px; } }
+        @media (max-device-width: 320px) {
+          .content .section3 .section .right .top {
+            font-size: 110px; } }
+      /* line 462, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
       .content .section3 .section .right .bottom {
         color: #24261c;
         font-family: raleway;
@@ -267,124 +384,215 @@ a {
         font-size: 30px;
         padding-left: 20%;
         padding-right: 20%; }
-        /* line 346, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+        /* line 469, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
         .content .section3 .section .right .bottom .mini {
           margin-top: 5px;
           font-size: 16px; }
+          @media screen and (min-width: 2000px) {
+            .content .section3 .section .right .bottom .mini {
+              font-size: 45px; } }
+          @media screen and (max-width: 2000px) {
+            .content .section3 .section .right .bottom .mini {
+              font-size: 30px; } }
+          @media screen and (max-width: 1500px) {
+            .content .section3 .section .right .bottom .mini {
+              font-size: 16px; } }
+          @media (max-device-width: 414px) {
+            .content .section3 .section .right .bottom .mini {
+              font-size: 35px; } }
+          @media (max-device-width: 320px) {
+            .content .section3 .section .right .bottom .mini {
+              font-size: 25px; } }
+        @media screen and (min-width: 2000px) {
+          .content .section3 .section .right .bottom {
+            font-size: 70px; } }
+        @media screen and (max-width: 2000px) {
+          .content .section3 .section .right .bottom {
+            font-size: 50px; } }
+        @media screen and (max-width: 1500px) {
+          .content .section3 .section .right .bottom {
+            font-size: 30px; } }
+        @media (max-device-width: 414px) {
+          .content .section3 .section .right .bottom {
+            font-size: 55px; } }
+        @media (max-device-width: 320px) {
+          .content .section3 .section .right .bottom {
+            font-size: 40px; } }
     @media (max-device-width: 414px) {
-      /* line 353, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+      /* line 506, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
       .content .section3 .section .right {
         width: 80%;
         float: left;
         margin-top: 17%;
         margin-left: 10%;
         margin-right: 10%; }
-        /* line 359, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+        /* line 512, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
         .content .section3 .section .right .top {
           text-align: center;
           padding-left: 0; }
-        /* line 363, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+        /* line 516, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
         .content .section3 .section .right .bottom {
           padding: 0; } }
-  /* line 370, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+  /* line 523, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
   .content .section4 {
     background-color: rgba(134, 21, 21, 0.48); }
-    /* line 376, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+    /* line 529, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
     .content .section4 .section {
       width: 100%;
       padding-left: 0%;
       padding-right: 0%; }
-      /* line 380, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+      /* line 533, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
       .content .section4 .section .top {
         color: #e3e3e3;
         text-align: center;
         font-size: 60px;
         width: 100%;
         float: left; }
-      /* line 387, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+        @media screen and (min-width: 2000px) {
+          .content .section4 .section .top {
+            font-size: 170px; } }
+        @media screen and (max-width: 2000px) {
+          .content .section4 .section .top {
+            font-size: 120px; } }
+        @media screen and (max-width: 1500px) {
+          .content .section4 .section .top {
+            font-size: 60px; } }
+        @media (max-device-width: 414px) {
+          .content .section4 .section .top {
+            font-size: 110px; } }
+        @media (max-device-width: 320px) {
+          .content .section4 .section .top {
+            font-size: 110px; } }
+      /* line 555, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
       .content .section4 .section .bottom {
         margin-top: 50px;
         font-family: raleway;
         color: #e3e3e3;
         width: 100%;
         float: left; }
-        /* line 393, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+        /* line 561, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
         .content .section4 .section .bottom .color1 {
           background-color: rgba(74, 15, 15, 0.2); }
-        /* line 396, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+        /* line 564, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
         .content .section4 .section .bottom .color2 {
           background-color: rgba(134, 21, 21, 0.2); }
-        /* line 399, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+        /* line 567, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
         .content .section4 .section .bottom .color3 {
           background-color: rgba(74, 15, 15, 0.2); }
-        /* line 402, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+        /* line 570, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
         .content .section4 .section .bottom .color {
           width: 100%;
           display: inline-block; }
-          /* line 405, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+          /* line 573, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
           .content .section4 .section .bottom .color .category {
             float: left;
             margin-top: 30px;
             margin-bottom: 30px; }
-            /* line 409, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+            /* line 577, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
             .content .section4 .section .bottom .color .category .image {
               margin-left: 3%;
-              margin-right: 3%; }
-              /* line 412, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+              margin-right: 3%;
+              width: 25%; }
+              /* line 581, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
               .content .section4 .section .bottom .color .category .image img {
                 width: 100%; }
             @media (max-device-width: 414px) {
-              /* line 417, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+              /* line 586, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
               .content .section4 .section .bottom .color .category .image {
                 width: 60%;
                 margin-left: 20%;
                 margin-right: 20%;
                 margin-bottom: 5%;
                 margin-top: 5%; } }
-            /* line 425, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+            /* line 594, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
             .content .section4 .section .bottom .color .category .text {
               margin-left: 3%;
               margin-right: 3%;
               color: #cbcbcb;
               text-align: left; }
-              /* line 430, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+              /* line 599, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
               .content .section4 .section .bottom .color .category .text .topText {
                 font-size: 40px;
                 text-align: center; }
-              /* line 434, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+                @media screen and (min-width: 2000px) {
+                  .content .section4 .section .bottom .color .category .text .topText {
+                    font-size: 90px; } }
+                @media screen and (max-width: 2000px) {
+                  .content .section4 .section .bottom .color .category .text .topText {
+                    font-size: 65px; } }
+                @media screen and (max-width: 1500px) {
+                  .content .section4 .section .bottom .color .category .text .topText {
+                    font-size: 40px; } }
+                @media (max-device-width: 414px) {
+                  .content .section4 .section .bottom .color .category .text .topText {
+                    font-size: 60px; } }
+                @media (max-device-width: 320px) {
+                  .content .section4 .section .bottom .color .category .text .topText {
+                    font-size: 50px; } }
+              /* line 618, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
               .content .section4 .section .bottom .color .category .text .center {
                 text-align: left; }
-              /* line 437, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+              /* line 621, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
               .content .section4 .section .bottom .color .category .text .bottomText {
                 text-indent: 10%;
                 font-size: 30px;
                 text-align: left; }
-          /* line 445, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+                @media screen and (min-width: 2000px) {
+                  .content .section4 .section .bottom .color .category .text .bottomText {
+                    font-size: 70px; } }
+                @media screen and (max-width: 2000px) {
+                  .content .section4 .section .bottom .color .category .text .bottomText {
+                    font-size: 50px; } }
+                @media screen and (max-width: 1500px) {
+                  .content .section4 .section .bottom .color .category .text .bottomText {
+                    font-size: 30px; } }
+                @media (max-device-width: 414px) {
+                  .content .section4 .section .bottom .color .category .text .bottomText {
+                    font-size: 55px; } }
+                @media (max-device-width: 320px) {
+                  .content .section4 .section .bottom .color .category .text .bottomText {
+                    font-size: 40px; } }
+          /* line 644, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
           .content .section4 .section .bottom .color .first .image, .content .section4 .section .bottom .color .third .image {
             float: left; }
-          /* line 450, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+          /* line 649, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
           .content .section4 .section .bottom .color .second .image {
             float: right; }
-  /* line 458, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+  /* line 657, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
   .content .section5 {
     background-color: rgba(14, 72, 4, 0.49); }
-    /* line 461, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+    /* line 660, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
     .content .section5 .section {
       margin-bottom: 0px;
       display: block; }
-      /* line 464, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+      /* line 663, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
       .content .section5 .section .top {
         width: 100%;
         color: #caf4c0;
         text-align: center;
         font-size: 60px;
         display: block; }
-      /* line 471, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+        @media screen and (min-width: 2000px) {
+          .content .section5 .section .top {
+            font-size: 170px; } }
+        @media screen and (max-width: 2000px) {
+          .content .section5 .section .top {
+            font-size: 120px; } }
+        @media screen and (max-width: 1500px) {
+          .content .section5 .section .top {
+            font-size: 60px; } }
+        @media (max-device-width: 414px) {
+          .content .section5 .section .top {
+            font-size: 110px; } }
+        @media (max-device-width: 320px) {
+          .content .section5 .section .top {
+            font-size: 110px; } }
+      /* line 685, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
       .content .section5 .section .bottom {
         text-align: center;
         width: 100%;
         margin-top: 30px; }
-        /* line 475, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+        /* line 689, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
         .content .section5 .section .bottom .link {
           border-left: 9px solid #0a450a;
           border-right: 9px solid #0a450a;
@@ -393,13 +601,13 @@ a {
           border-radius: 30px;
           display: inline-block;
           background-color: rgba(10, 126, 10, 0.29); }
-          /* line 486, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+          /* line 700, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
           .content .section5 .section .bottom .link:hover {
             border-left: 9px solid #051705;
             border-right: 9px solid #051705;
             border-top: 5px solid #051705;
             border-bottom: 5px solid #051705; }
-          /* line 492, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+          /* line 706, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
           .content .section5 .section .bottom .link a {
             background-color: rgba(10, 126, 10, 0.29);
             padding-left: 30px;
@@ -408,12 +616,42 @@ a {
             color: #caf4c0;
             border-radius: 20px;
             font-family: raleway; }
-      /* line 503, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
+            @media screen and (min-width: 2000px) {
+              .content .section5 .section .bottom .link a {
+                font-size: 100px; } }
+            @media screen and (max-width: 2000px) {
+              .content .section5 .section .bottom .link a {
+                font-size: 80px; } }
+            @media screen and (max-width: 1500px) {
+              .content .section5 .section .bottom .link a {
+                font-size: 50px; } }
+            @media (max-device-width: 414px) {
+              .content .section5 .section .bottom .link a {
+                font-size: 90px; } }
+            @media (max-device-width: 320px) {
+              .content .section5 .section .bottom .link a {
+                font-size: 90px; } }
+      /* line 732, C:/Users/Splash/Documents/GitHub/product/css/style.scss */
       .content .section5 .section .pseudoFooter {
         margin-top: 100px;
         font-size: 20px;
         color: #72ad76;
         text-align: center; }
+        @media screen and (min-width: 2000px) {
+          .content .section5 .section .pseudoFooter {
+            font-size: 20px; } }
+        @media screen and (max-width: 2000px) {
+          .content .section5 .section .pseudoFooter {
+            font-size: 45px; } }
+        @media screen and (max-width: 1500px) {
+          .content .section5 .section .pseudoFooter {
+            font-size: 20px; } }
+        @media (max-device-width: 414px) {
+          .content .section5 .section .pseudoFooter {
+            font-size: 55px; } }
+        @media (max-device-width: 320px) {
+          .content .section5 .section .pseudoFooter {
+            font-size: 55px; } }
 
 
 /*# sourceMappingURL=style.css.map */
