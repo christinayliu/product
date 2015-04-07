@@ -115,13 +115,13 @@ $(window).load(function() {
 	var temp2 = parseInt($("#headerLink").css("line-height"));
 	var temp3 = $(".logo").height()
 	
-	$("#headerLink").css("margin-top", (temp3-temp2)/2/3*2+(temp1-temp3)/2);
-	$("#headerLink").css("margin-bottom", (temp3-temp2)/2/3*2+(temp1-temp3)/2);
+	$("#headerLink").css("margin-top", (temp3-temp2)/2/3+(temp1-temp3)/2);
+	$("#headerLink").css("margin-bottom", (temp3-temp2)/2/3+(temp1-temp3)/2);
 	
-	$("#headerLink").css("padding-top", (temp3-temp2)/2/3);
-	$("#headerLink").css("padding-bottom", (temp3-temp2)/2/3);
-	$("#headerLink").css("padding-left", (temp3-temp2)/2/3);
-	$("#headerLink").css("padding-right", (temp3-temp2)/2/3);
+	$("#headerLink").css("padding-top", (temp3-temp2)/2/3*2);
+	$("#headerLink").css("padding-bottom", (temp3-temp2)/2/3*2);
+	$("#headerLink").css("padding-left", (temp3-temp2)/2/3*2);
+	$("#headerLink").css("padding-right", (temp3-temp2)/2/3*2);
 
 	
 
