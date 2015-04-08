@@ -99,7 +99,7 @@ $(window).load(function() {
     // DOM modifying stuff goes here:
 
 	//this generally helps the look of certain elements:
-	$("#actualImage").css("width", ($(".header").width()*10/100));
+	$("#actualImage").css("width", ($(".header").width()*7/100));
 
 	if($("html").width() < 420){
 		window.headerHeight = .5;	

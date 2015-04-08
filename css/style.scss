@@ -173,7 +173,6 @@ a{
 			font-family: raleway;
 			font-weight: bolder;
 			color: rgb(84, 52, 12);
-			//todo: jquery to vertically center
 			@media screen and (min-width: $breakA){
 				font-size: $twoA;
 			}
@@ -353,8 +352,8 @@ a{
 				text-indent: 60px;
 				font-size: $fourC;
 				padding-top: 10px;
-				padding-left: 20%;
-				padding-right: 20%;
+				padding-left: 10%;
+				padding-right: 10%;
 				@media screen and (min-width: $breakA){
 					font-size: $fourA;
 				}
@@ -523,8 +522,8 @@ a{
 	.section4{
 		$fontColor: rgb(227, 227, 227);
 		background-color: rgba(134, 21, 21, 0.48);
-		$bgColorA: rgba(74, 15, 15, 0.2);
-		$bgColorB: rgba(134, 21, 21, 0.2);
+		$bgColorA: rgba(134, 60, 13, 0.34);
+		$bgColorB: rgba(78, 10, 10, 0.37);
 		//set bgColors to completely transparent if you don't want each category to have color.
 		.section{
 			width: 100%;
